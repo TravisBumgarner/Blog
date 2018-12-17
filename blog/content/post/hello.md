@@ -2,6 +2,7 @@
 title: "Hello"
 date: 2018-12-17T18:20:50-05:00
 draft: true
+tags: ["react", "node"]
 ---
 
 Lorem ipsum dolor amet freegan chartreuse man braid lumbersexual. Ramps mustache lumbersexual kombucha unicorn master cleanse health goth tofu organic bitters put a bird on it live-edge umami vice before they sold out. Forage fanny pack thundercats tumblr. Cliche biodiesel gochujang schlitz man bun vexillologist tumblr vinyl narwhal quinoa master cleanse. Lomo blue bottle jean shorts chartreuse PBR&B, fam vinyl bespoke activated charcoal cloud bread kitsch prism. Raclette jianbing readymade paleo synth. Bitters post-ironic XOXO you probably haven't heard of them lumbersexual.
