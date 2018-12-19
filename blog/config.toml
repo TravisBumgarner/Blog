@@ -1,7 +1,7 @@
 baseURL = "https://blog.travisbumgarner.com"
 languageCode = "en-us"
 title = "i-make-things"
-theme="blank"
+theme="foobar"
 [taxonomies]
    tag = "tags"
    category = "categories"

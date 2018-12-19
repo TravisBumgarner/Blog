@@ -1,0 +1,25 @@
+@function color($color-name){
+    $colors: (
+        primary: green,
+        secondary: red,
+        tertiary: white,
+    );
+
+    @return map-get($colors, $color-name)
+}
+
+
+@function spacing($spacing-name){
+    $spacings: (
+        small: 0.25em,
+        medium: 0.5em,
+        large: 1em,
+        xlarge: 2em,
+    );
+
+    @return map-get($spacings, $spacing-name)
+}
+
+body {
+    background-color: color(primary);
+}
