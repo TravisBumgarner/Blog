@@ -1,6 +1,6 @@
 baseURL = "https://blog.travisbumgarner.com"
 languageCode = "en-us"
-title = "i-make-things"
+title = "i_make_things.py"
 theme="foobar"
 [taxonomies]
    tag = "tags"

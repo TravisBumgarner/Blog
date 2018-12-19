@@ -1,25 +1,110 @@
-@function color($color-name){
-    $colors: (
-        primary: green,
-        secondary: red,
-        tertiary: white,
-    );
+@function color($color-name) {
+  $colors: (
+    primary: black,
+    secondary: white
+  );
 
-    @return map-get($colors, $color-name)
+  @return map-get($colors, $color-name);
 }
 
+@function spacing($spacing-name) {
+  $spacings: (
+    small: 0.25em,
+    medium: 0.5em,
+    large: 1em,
+    xlarge: 2em
+  );
 
-@function spacing($spacing-name){
-    $spacings: (
-        small: 0.25em,
-        medium: 0.5em,
-        large: 1em,
-        xlarge: 2em,
-    );
-
-    @return map-get($spacings, $spacing-name)
+  @return map-get($spacings, $spacing-name);
 }
+
+@function font-sizing($sizing-name) {
+    $sizings: (
+        small: 1.5rem,
+        medium: 1.875rem,
+        large: 2.1875rem,
+        xlarge: 2.5rem       
+    );
+  
+    @return map-get($sizings, $sizing-name);
+  }
+  
+/* Fonts */ 
+/* Put Downloaded Fonts here */
+$nanum-gothic-coding: 'Nanum Gothic Coding', monospace;
+$montserrat: 'Montserrat', sans-serif;
+
+
+/* Put Fonts for File here */
+$font-global: $montserrat;
+$font-header: $nanum-gothic-coding;
+$font-code-snippet: $nanum-gothic-coding;
+/* End Fonts */
 
 body {
-    background-color: color(primary);
+    color: color(primary);
+    font-family: $font-global;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5625; // 25 / 16
+    transition: 0.2s font, 0.2s color;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+a { 
+    text-decoration: none;
+
+    &:hover {
+        border-bottom: 2px solid color(primary);
+    }
+}
+
+header {
+    .h1 {
+        color: color(primary);
+        font-family: $font-header;
+        font-size: font-sizing(xlarge);    
+    }
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+main.single {
+    max-width: 50em;
+    
+    h1 {
+        color: color(primary);
+        font-family: $font-header;
+        font-size: font-sizing(xlarge);
+    }
+    
+    h2 {
+        color: color(primary);
+        font-family: $font-header;
+        font-size: font-sizing(large);
+        text-transform: uppercase;
+    }
+    
+    h3 {
+        color: color(primary);
+        font-family: $font-header;
+        font-size: font-sizing(medium);
+    }
+}
+
+main.list {
+    h1 {
+        color: color(primary);
+        font-family: $font-header;
+        font-size: font-sizing(medium);
+    }
+}
+
+aside.sidebar {
+    flex-basis: 240px;
+    flex-shrink: 0;
+}
+
