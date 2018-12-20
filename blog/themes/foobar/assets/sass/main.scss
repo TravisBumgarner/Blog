@@ -1,21 +1,11 @@
 @function color($color-name) {
   $colors: (
     primary: black,
-    secondary: white
+    secondary: white,
+    tertiary: #eee,
   );
 
   @return map-get($colors, $color-name);
-}
-
-@function spacing($spacing-name) {
-  $spacings: (
-    small: 0.25em,
-    medium: 0.5em,
-    large: 1em,
-    xlarge: 2em
-  );
-
-  @return map-get($spacings, $spacing-name);
 }
 
 @function font-sizing($sizing-name) {
@@ -41,6 +31,23 @@ $font-header: $nanum-gothic-coding;
 $font-code-snippet: $nanum-gothic-coding;
 /* End Fonts */
 
+/* Spacing & Dividing */
+@function spacing($spacing-name) {
+    $spacings: (
+      small: 0.25em,
+      medium: 0.5em,
+      large: 1em,
+      xlarge: 2em
+    );
+  
+    @return map-get($spacings, $spacing-name);
+}
+
+$primary-divider: 5px solid color(primary);
+
+
+/* End Spacing & Dividing */
+
 body {
     color: color(primary);
     font-family: $font-global;
@@ -57,8 +64,18 @@ a {
     text-decoration: none;
 
     &:hover {
-        border-bottom: 2px solid color(primary);
+        border-bottom: $primary-divider;
     }
+}
+
+code {
+    font-family: $font-code-snippet;
+    border-radius: 5px;
+    background-color: color(tertiary);
+    padding: 10px;
+    width: 100%;
+    display: block;
+    border: 2px solid #ccc;
 }
 
 header {
@@ -76,20 +93,21 @@ header {
 main.single {
     max-width: 50em;
     
-    h1 {
+    h2 {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(xlarge);
+        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
     }
     
-    h2 {
+    h3 {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(large);
         text-transform: uppercase;
     }
     
-    h3 {
+    h4 {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(medium);
@@ -101,11 +119,26 @@ main.list {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(medium);
+        margin: spacing(medium) 0;
     }
+
+    article:first-child h2 {
+        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+    }
+
 }
 
 aside.sidebar {
     flex-basis: 240px;
     flex-shrink: 0;
+    
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    section:first-child h3 {
+        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+    }
 }
 
