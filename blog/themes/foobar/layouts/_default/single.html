@@ -9,6 +9,13 @@
 				{{ .Content }}
 			</div>
 			<div>
+				There should be an image
+				{{ range .Resources.ByType "image" }}
+					<p>I found an image</p>
+					<img src="{{ .Permalink }}">
+				{{ end }}
+			</div>
+			<div>
 				<ul id="tags">
 					{{ range .Params.tags }}
 					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
