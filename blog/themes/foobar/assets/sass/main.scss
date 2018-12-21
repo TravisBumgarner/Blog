@@ -78,13 +78,17 @@ code {
 }
 
 header {
-    margin-bottom: spacing(xxlarge);
+    border: $primary-divider;
+    box-sizing: border-box;
+    margin: spacing(large) 0 spacing(large) spacing(large);
+    padding: spacing(large);
 
     h1 {
         font-weight: 700;
         color: color(primary);
         font-family: $font-header;
-        font-size: font-sizing(xlarge);    
+        font-size: font-sizing(xlarge);
+        margin: 0;  
     }
 }
 
@@ -145,11 +149,11 @@ main.list {
     }
 
     article {
-        margin: spacing(xxlarge) 0;
+        margin: spacing(large) 0;
         border: $primary-divider;
         box-sizing: border-box;
         padding: spacing(large);
-
+        
     }
 
     article:first-child {
@@ -176,6 +180,10 @@ aside.sidebar {
     flex-basis: 240px;
     flex-shrink: 0;
 
+    border: $primary-divider;
+    box-sizing: border-box;
+    margin: 0 spacing(large);
+
     ul {
         list-style-type: none;
         padding-left: 0;
@@ -191,7 +199,8 @@ aside.sidebar {
     }
 
     section {
-        margin: spacing(xlarge) 0;
+        box-sizing: border-box;
+        padding: spacing(large);
     }
 
     section:first-child {
