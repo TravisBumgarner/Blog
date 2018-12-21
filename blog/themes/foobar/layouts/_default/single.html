@@ -9,18 +9,25 @@
 				{{ .Content }}
 			</div>
 			<div>
-				There should be an image
-				{{ range .Resources.ByType "image" }}
-					<p>I found an image</p>
-					<img src="{{ .Permalink }}">
-				{{ end }}
-			</div>
-			<div>
 				<ul id="tags">
 					{{ range .Params.tags }}
 					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
 					{{ end }}
 				</ul>
+			</div>
+			<div>
+				{{ $all_posts := where .Site.Pages ".Type" "post" }}
+				{{ $other_posts := where $all_posts ".Title" "<>" .Title }}
+				{{ $related_posts := where $other_posts "Params.project" .Params.project }}
+				{{ if $related_posts }}
+					<h3>Read More Posts On Project</h3>
+					<ul>
+						{{ range $related_posts }}
+							<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+						{{ end }}
+					</ul>
+				{{ end }}
+
 			</div>
 			<div>
 				{{ template "_internal/disqus.html" . }}

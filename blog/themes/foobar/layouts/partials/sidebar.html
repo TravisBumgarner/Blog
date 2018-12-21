@@ -14,13 +14,12 @@
     </section>
     <section>
         <div>
-            <h3>Projects</h3>
+            <h3>Categories</h3>
         </div>
         <div>
             <ul>
-                {{ range $key, $value := .Site.Taxonomies.project }}
-                <li><a href="/project/{{ $key }}">{{$key}}</a></li>
-                
+                {{ range $key, $value := .Site.Taxonomies.categories }}
+                <li><a href="/project/{{ $key }}">{{ humanize $key}}</a></li>
                 {{ end }}
             </ul>
         </div>

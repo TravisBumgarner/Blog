@@ -155,6 +155,10 @@ aside.sidebar {
         padding-left: 0;
     }
 
+    li {
+        text-transform: capitalize;
+    }
+
     section:first-child h3 {
         margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
     }
