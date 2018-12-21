@@ -4,4 +4,5 @@ date: {{ .Date }}
 draft: true
 tools: []
 project: ''
+summary: ''
 ---

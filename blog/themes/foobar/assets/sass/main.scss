@@ -52,7 +52,7 @@ body {
     color: color(primary);
     font-family: $font-global;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5625; // 25 / 16
     transition: 0.2s font, 0.2s color;
     max-width: 1200px;
@@ -76,6 +76,7 @@ code {
     width: 100%;
     display: block;
     border: 2px solid #ccc;
+    box-sizing: border-box;
 }
 
 header {
@@ -97,10 +98,12 @@ main.single {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(xlarge);
-        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title
+        margin-bottom: spacing(medium)
     }
     
     h3 {
+        margin: spacing(small) 0;
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(large);
@@ -112,6 +115,21 @@ main.single {
         font-family: $font-header;
         font-size: font-sizing(medium);
     }
+    
+    img {
+        max-width: 100%;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+
+    time {
+        font-size: font-sizing(small);
+    }
+
+    p { 
+        margin: spacing(large) 0;
+    }
+
 }
 
 main.list {

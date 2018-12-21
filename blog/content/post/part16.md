@@ -1,10 +1,12 @@
 ---
-title: "Strangerer Things: Part 4"
-date: 2018-12-19T19:30:08-05:00
+title: "I Make Things: Part 99"
+date: 2018-12-19T19:59:08-05:00
 draft: true
-tools: ['react', 'javascript']
-project: 'Strangerer Things'
+tools: ['javascript', 'hugo']
+project: 'I Make Things'
 ---
+
+### Content Here
 
 God help us, we're in the hands of engineers. What do they got in there? King Kong? Hey, take a look at the earthlings. Goodbye! We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!
 
