@@ -1,6 +1,18 @@
 <aside class="sidebar">
     <section>
         <div>
+            <h3>Categories</h3>
+        </div>
+        <div>
+            <ul>
+                {{ range $key, $value := .Site.Taxonomies.categories }}
+                <li><a href="/categories/{{ $key }}">{{ humanize $key}}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div>
             <h3>Tools</h3>
         </div>
         <div>
@@ -8,18 +20,6 @@
                 {{ range $key, $value := .Site.Taxonomies.tools }}
                 <li><a href="/tools/{{ $key }}">{{$key}}</a></li>
                 
-                {{ end }}
-            </ul>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h3>Categories</h3>
-        </div>
-        <div>
-            <ul>
-                {{ range $key, $value := .Site.Taxonomies.categories }}
-                <li><a href="/project/{{ $key }}">{{ humanize $key}}</a></li>
                 {{ end }}
             </ul>
         </div>

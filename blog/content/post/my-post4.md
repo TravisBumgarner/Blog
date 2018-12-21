@@ -4,10 +4,7 @@
     "draft": true,
     "tools": ["CATS"],
     "categories": [
-        "Web Development",
-        "Photography",
-        "Digital Design",
-        "Mechanical Design"
+        "Web Development"
     ],
     "project": "Stranger Things"
 }
