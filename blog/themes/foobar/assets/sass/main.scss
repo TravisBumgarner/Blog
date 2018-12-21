@@ -38,13 +38,15 @@ $font-code-snippet: $nanum-gothic-coding;
       small: 0.25em,
       medium: 0.5em,
       large: 1em,
-      xlarge: 2em
+      xlarge: 2em,
+      xxlarge: 3em,
     );
   
     @return map-get($spacings, $spacing-name);
 }
 
-$primary-divider: 5px solid color(primary);
+$primary-divider: 2px solid color(primary);
+$primary-divider-hover: 2px solid color(highlight01);
 
 
 /* End Spacing & Dividing */
@@ -63,10 +65,6 @@ body {
 a { 
     color: color(primary);
     text-decoration: none;
-
-    &:hover {
-        border-bottom: $primary-divider;
-    }
 }
 
 code {
@@ -80,16 +78,13 @@ code {
 }
 
 header {
-    .h1 {
+    margin-bottom: spacing(xxlarge);
+
+    h1 {
         font-weight: 700;
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(xlarge);    
-    }
-
-    .secondary-text {
-        color: color(highlight02);
-        font-weight: 100;
     }
 }
 
@@ -104,8 +99,10 @@ main.single {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(xlarge);
-        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title
-        margin-bottom: spacing(medium)
+        margin-bottom: spacing(medium);
+
+        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+        line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
     
     h3 {
@@ -144,14 +141,33 @@ main.list {
         font-family: $font-header;
         font-size: font-sizing(medium);
         margin: spacing(medium) 0;
+        line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
-    article:first-child h2 {
+    article {
+        margin: spacing(xxlarge) 0;
+        border: $primary-divider;
+        box-sizing: border-box;
+        padding: spacing(large);
+
+    }
+
+    article:first-child {
         margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
+    article:first-child h2 {
+        // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+    }
+
     .read-more {
-        font-weight: 700;
+        font-weight: 500;
+        border-bottom: $primary-divider;
+
+        &:hover {
+            color: $primary-divider-hover;
+            border-bottom: $primary-divider-hover;
+        }
     }
 
 }
@@ -159,7 +175,7 @@ main.list {
 aside.sidebar {
     flex-basis: 240px;
     flex-shrink: 0;
-    
+
     ul {
         list-style-type: none;
         padding-left: 0;
@@ -169,8 +185,22 @@ aside.sidebar {
         text-transform: capitalize;
     }
 
+    h3 {
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    section {
+        margin: spacing(xlarge) 0;
+    }
+
+    section:first-child {
+        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+    }
+
     section:first-child h3 {
         margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+        line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
 }
 

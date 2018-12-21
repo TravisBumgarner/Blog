@@ -2,6 +2,7 @@
 <div class="content-wrapper">
 	{{ partial "sidebar.html" . }}
 	<main class="list">
+		{{ partial "about.html" . }}
 		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
