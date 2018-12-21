@@ -2,11 +2,16 @@
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <div>
         {{ .Summary }}
-        {{ if .Truncated }}
-            <a href="{{ .Permalink }}">Read more...</a>
+        {{ if .Params.tools }}
+            <p>
+                Built With: 
+                {{ range .Params.tools }}
+                    {{ . }}
+                {{ end }}
+            </p>
         {{ end }}
-        {{ range .Params.tools }}
-            {{ . }}
+        {{ if .Truncated }}
+            <div><a class="read-more" href="{{ .Permalink }}">Read more...</a></div>
         {{ end }}
     </div>
 </article>

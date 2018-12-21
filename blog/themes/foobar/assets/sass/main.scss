@@ -1,8 +1,9 @@
 @function color($color-name) {
   $colors: (
-    primary: black,
+    primary: #09113A,
     secondary: white,
-    tertiary: #eee,
+    highlight01: #767fae,
+    highlight02: #8874AE,
   );
 
   @return map-get($colors, $color-name);
@@ -71,19 +72,24 @@ a {
 code {
     font-family: $font-code-snippet;
     border-radius: 5px;
-    background-color: color(tertiary);
     padding: 10px;
     width: 100%;
     display: block;
-    border: 2px solid #ccc;
+    border: 2px solid color(highlight01);
     box-sizing: border-box;
 }
 
 header {
     .h1 {
+        font-weight: 700;
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(xlarge);    
+    }
+
+    .secondary-text {
+        color: color(highlight02);
+        font-weight: 100;
     }
 }
 
@@ -142,6 +148,10 @@ main.list {
 
     article:first-child h2 {
         margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+    }
+
+    .read-more {
+        font-weight: 700;
     }
 
 }
