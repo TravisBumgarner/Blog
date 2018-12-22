@@ -68,11 +68,9 @@ a {
 
 code {
     font-family: $font-code-snippet;
-    border-radius: 5px;
     padding: 10px;
     width: 100%;
     display: block;
-    border: 2px solid color(highlight01);
     box-sizing: border-box;
 }
 
@@ -97,23 +95,27 @@ header {
 
 main.single {
     max-width: 50em;
+    margin: 0;
+    border: $primary-divider;
+    box-sizing: border-box;
+    padding: spacing(large);
     
     h2 {
         color: color(primary);
         font-family: $font-header;
-        font-size: font-sizing(xlarge);
-        margin-bottom: spacing(medium);
+        font-size: font-sizing(large);
+        margin: spacing(medium) 0;
 
-        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+        // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
         line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
     
     h3 {
-        margin: spacing(small) 0;
+        margin: spacing(medium) 0;
         color: color(primary);
         font-family: $font-header;
-        font-size: font-sizing(large);
-        text-transform: uppercase;
+        font-size: font-sizing(small);
+        // text-transform: uppercase;
     }
     
     h4 {
@@ -128,8 +130,14 @@ main.single {
         box-sizing: border-box;
     }
 
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
     time {
-        font-size: font-sizing(small);
+        font-size: font-sizing(xsmall);
+        font-weight: 400;
     }
 
     p { 
@@ -181,6 +189,7 @@ main.list {
 aside.sidebar {
     flex-basis: 240px;
     flex-shrink: 0;
+    flex-grow: 1; // Fill up horizontal space after max width on posts is reached
     // height: 0%; // Stops sidebar from expanding with flex;
 
     border: $primary-divider;

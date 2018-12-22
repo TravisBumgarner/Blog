@@ -1,5 +1,5 @@
 {
-    "title": "Hello World: Part II",
+    "title": "hello_world_part_ii",
     "date": "2018-12-21T12:53:02-05:00",
     "draft": true,
     "tools": ["React"],
