@@ -6,4 +6,4 @@ author="Travis Bumgarner"
 [taxonomies]
    tools = "tools"
    project = "project"
-   categories = "categories"
+   topics = "topics"

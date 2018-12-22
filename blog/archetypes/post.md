@@ -3,7 +3,7 @@
     "date": "{{ .Date }}",
     "draft": true,
     "tools": [""],
-    "categories": [
+    "topics": [
         "Digital Design",
         "Entrepreneurship",
         "Electronics",

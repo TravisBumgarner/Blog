@@ -3,11 +3,13 @@
 	{{ partial "sidebar.html" . }}
 	<main class="list">
 		{{ partial "about.html" . }}
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}
-		{{ partial "pagination.html" . }}
+		{{ if gt (len $paginator.Pages) 10 }}
+			{{ partial "pagination.html" . }}
+		{{ end }}
 	</main>
 </div>
 {{ partial "footer.html" . }}

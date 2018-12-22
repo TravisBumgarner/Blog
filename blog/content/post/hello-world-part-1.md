@@ -3,7 +3,7 @@
     "date": "2018-11-21T13:16:23-05:00",
     "draft": true,
     "tools": ["JavaScript"],
-    "categories": [
+    "topics": [
         "Digital Design",
         "Entrepreneurship",
         "Web Development"

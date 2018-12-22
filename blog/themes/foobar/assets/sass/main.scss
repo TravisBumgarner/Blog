@@ -48,7 +48,6 @@ $font-code-snippet: $nanum-gothic-coding;
 $primary-divider: 2px solid color(primary);
 $primary-divider-hover: 2px solid color(highlight01);
 
-
 /* End Spacing & Dividing */
 
 body {
@@ -154,6 +153,9 @@ main.list {
         box-sizing: border-box;
         padding: spacing(large);
         
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     article:first-child {
@@ -179,6 +181,7 @@ main.list {
 aside.sidebar {
     flex-basis: 240px;
     flex-shrink: 0;
+    // height: 0%; // Stops sidebar from expanding with flex;
 
     border: $primary-divider;
     box-sizing: border-box;
@@ -200,16 +203,31 @@ aside.sidebar {
 
     section {
         box-sizing: border-box;
+        // margin: spacing(large);
         padding: spacing(large);
     }
 
     section:first-child {
-        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+        // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
     section:first-child h3 {
-        margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+        // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
         line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
+}
+
+div.pagination {
+    border: $primary-divider;
+    box-sizing: border-box;
+    margin: spacing(large) 0 0 0;
+    padding: spacing(large);   
+}
+
+footer {
+    border: $primary-divider;
+    box-sizing: border-box;
+    margin: spacing(large) 0 spacing(large) spacing(large);
+    padding: spacing(large);   
 }
 
