@@ -8,10 +8,12 @@
         "Entrepreneurship",
         "Electronics",
         "Mechanical Engineering",
+        "My Progress",
         "Photography",
         "Random",
         "Web Development",
         "Wood Working"
-    ]
+    ],
+    "project": ""
 }
 

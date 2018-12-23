@@ -11,6 +11,7 @@
 
 @function font-sizing($sizing-name) {
     $sizings: (
+        xsmall: 1rem,
         small: 1.5rem,
         medium: 1.875rem,
         large: 2.1875rem,
@@ -64,6 +65,11 @@ body {
 a { 
     color: color(primary);
     text-decoration: none;
+    font-weight: 400;
+
+    &:hover {
+        border-bottom: $primary-divider;
+    }
 }
 
 code {
@@ -123,11 +129,19 @@ main.single {
         font-family: $font-header;
         font-size: font-sizing(medium);
     }
+
+    figure h4 {
+        font-size: font-sizing(xsmall);
+        text-align: center;
+        margin: 0;
+    }
     
     img {
         max-width: 100%;
         padding: 10px 0;
         box-sizing: border-box;
+        display: block;
+        margin: 0 auto;
     }
 
     ul {
@@ -173,17 +187,6 @@ main.list {
     article:first-child h2 {
         // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
     }
-
-    .read-more {
-        font-weight: 500;
-        border-bottom: $primary-divider;
-
-        &:hover {
-            color: $primary-divider-hover;
-            border-bottom: $primary-divider-hover;
-        }
-    }
-
 }
 
 aside.sidebar {
