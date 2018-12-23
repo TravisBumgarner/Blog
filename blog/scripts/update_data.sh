@@ -1,4 +1,4 @@
 cd /home/tbumgarner/webapps/i-make-things/blog
 git pull
 rm -r /home/tbumgarner/webapps/i-make-things/blog/public
-hugo
+/usr/local/bin/hugo
