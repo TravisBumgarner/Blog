@@ -1,7 +1,7 @@
 {
     "title": "hello_world_part_i",
     "date": "2018-11-21T13:16:23-05:00",
-    "draft": true,
+    "draft": false,
     "tools": ["JavaScript"],
     "topics": [
         "Digital Design",
