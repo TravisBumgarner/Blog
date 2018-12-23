@@ -1,6 +1,6 @@
 baseURL = "https://blog.travisbumgarner.com"
 languageCode = "en-us"
-title = "i_make_things"
+title = "Travis Bumgarner"
 theme="foobar"
 author="Travis Bumgarner"
 [taxonomies]
