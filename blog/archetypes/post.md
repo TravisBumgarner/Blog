@@ -17,3 +17,6 @@
     "project": ""
 }
 
+{{< youtube id >}}
+{{< figure src="/image/{{ .Name }}/file.jpg" title="Title" >}}
+
