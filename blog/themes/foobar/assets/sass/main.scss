@@ -110,6 +110,10 @@ main.single {
     box-sizing: border-box;
     padding: spacing(large);
     
+    section {
+        margin: spacing(xlarge) 0;
+    }
+
     h2 {
         color: color(primary);
         font-family: $font-header;

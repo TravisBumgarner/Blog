@@ -4,18 +4,18 @@
 	<main class="single">
 		<article>
 			<h2>{{ .Title }}</h2>
-			<div>
+			<time>{{ .Date.Format "Monday, January 2, 2006" }}</time>
+			<section>
 				{{ .Content }}
-			</div>
-			<div>
+			</section>
+			<section>
 				<ul id="tags">
 					{{ range .Params.tags }}
 					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
 					{{ end }}
 				</ul>
-			</div>
-			<time>{{ .Date.Format "Monday, January 2, 2006" }}</time>
-			<div>
+			</section>
+			<section>
 				{{ $all_posts := where .Site.Pages ".Type" "post" }}
 				{{ $other_posts := where $all_posts ".Title" "<>" .Title }}
 					{{ $related_posts := where $other_posts "Params.project" .Params.project }}
@@ -27,10 +27,11 @@
 						{{ end }}
 					</ul>
 					{{ end }}
-			</div>
-			<div>
+			</section>
+			<section>
+				<h2>Comment</h2>
 				{{ template "_internal/disqus.html" . }}
-			</div>
+			</section>
 		</article>
 	</main>
 </div>
