@@ -4,6 +4,7 @@ title = "Travis Bumgarner"
 theme="foobar"
 author="Travis Bumgarner"
 disqusShortname="travisbumgarner"
+googleAnalytics="UA-131349056-1"
 [taxonomies]
    tools = "tools"
    project = "project"
