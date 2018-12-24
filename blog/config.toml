@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Travis Bumgarner"
 theme="foobar"
 author="Travis Bumgarner"
+disqusShortname="travisbumgarner"
 [taxonomies]
    tools = "tools"
    project = "project"

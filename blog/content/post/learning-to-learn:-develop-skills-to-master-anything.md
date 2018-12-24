@@ -20,11 +20,15 @@
 {{< youtube id >}}
 {{< figure src="/image/learning-to-learn:-develop-skills-to-master-anything/file.jpg" title="Title" >}}
 
-Back in 2015, before I knew much about electronics, I embarked on an overly ambitious electronics project to build a camera.
 
-
+### Background
 
 Before I'd really cemented my process of "learning how to learn", I embarked on an ambitious project, my first large electronics project, documented [here]({{< ref "/project/combining-hobbies">}}). It involved soldering, programming in C++, connecting various electrical components together, and designing a user interface, consisting of buttons and a screen, through which to interact with the device. One day, while working on the project, a bug somewhere in the code or an issue with the circuit. I spent nearly 6 hours throughout my weekend floundering around finally stumbling upon the issue. On Tuesday, I went to my weekly meetup for makers where I asked Rich how he would have diagnosed the problem. Without pause, he said, "I would have checked X and Y to see that they were done correctly." The details aren't important, but that was exactly what I discovered after those 6 painful hours. 
+
+### Develop a Support Network
+
+
+
 
 Brainstorm
 
@@ -38,6 +42,8 @@ Friends
 Coworkers
 Family
 meetups
+
+# Create Collection of Good Resources
 
 Good resources
 Amazon
