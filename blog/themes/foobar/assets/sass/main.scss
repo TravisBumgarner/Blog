@@ -128,14 +128,14 @@ main.single {
         margin: spacing(medium) 0;
         color: color(primary);
         font-family: $font-header;
-        font-size: font-sizing(small);
+        font-size: font-sizing(medium);
         // text-transform: uppercase;
     }
     
     h4 {
         color: color(primary);
         font-family: $font-header;
-        font-size: font-sizing(medium);
+        font-size: font-sizing(small);
     }
 
     figure h4 {
