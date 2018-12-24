@@ -2,8 +2,8 @@
   $colors: (
     primary: #09113A,
     secondary: white,
-    highlight01: #767fae,
-    highlight02: #8874AE,
+    highlight01: #f1f1f1,
+    highlight02: #a7a7a7,
   );
 
   @return map-get($colors, $color-name);
@@ -112,6 +112,34 @@ main.single {
     
     section {
         margin: spacing(xlarge) 0;
+    }
+
+    blockquote {
+        background: color(highlight01);
+        border-left: 10px solid color(highlight02);
+        margin: 0;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+        color: color(highlight02);
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+    blockquote p {
+        display: inline;
+    }
+
+    blockquote:after {
+        color: color(highlight02);
+        content: close-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
     }
 
     h2 {

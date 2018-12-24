@@ -17,10 +17,6 @@
     "project": ""
 }
 
-{{< youtube id >}}
-
-
-
 ### Background
 
 Four years ago, while looking for jobs after I finished my Peace Corps service, I stumbled upon a listing asking for a portfolio either as a PDF or website. I knew almost nothing about software development and like any rational person, opted to build a website to showcase my talents and experience. The journey was far from easy. However, I have developed a set of skills that have enabled me to learn new subjects and I'd like to share them with you.
@@ -61,13 +57,15 @@ This one is pretty straight forward. Ask questions of those immediately around y
 
 ##### Internet Gatherings
 
-If for whatever reason, local meetups don't work for you, there are a pleathora of online communities to join.
+If for whatever reason, local meetups don't work for you, there are a pleathora of online communities to join. Of the communities I have found they range in terms of what they're useful for. Discord and Slack are great for more realtime chatroom style discussions. Reddit is great for discussions that last for a day or so. Forums, are great for longer lasting more focussed discussions. 
 
-Discord
+Discord - I generally only use Discord for voice chat with friends but I have noticed lots of people online discussing discord as a great place to find a community. A quick search termed up [this site](https://discord.me/) which looks like a good resource to find a Discord Community for you.
 
-Forums
+Slack - This is similar to Discord in that I almost only use it for work. However, I have searched around Google and found a few interesting communities related to subjects i'm interested in. 
 
-Reddit
+Forums - 
+
+Reddit - There's a discussion for everything today. For example, in the realm of programming, there's discussion
 
 Slack Groups
 
@@ -92,7 +90,12 @@ YouTube, Pluralsight, Udemy, Edx, Lynda
 Twitch - Twitch is perhaps an unexpcted item on this list. While I mainly use the platform to watch others play video games for enjoyment, I have also watched pros to learn how to play better. Beyond video games, you can also watch people playing music, painting, and programming - all live!
 
 ### Recursive Learning
-how I learned about pharmacusticals, DNA, RNA
+
+A few years back I worked for a Pharmacutical Company as a software engineer. Day 1, I was completely lost in conversations outside of software, biology and chemistry were not my strengths in high school. I struggled to understand what the company did, so I went and read their About Me page. Unfortunately, I left the page more lost than before I arrived. 
+
+I decided to use the About Me page as a starting point and look up each of the words I didn't know. I then looked up those words and kept going until I had a decent enough understanding of it all that I could explain to friends and family what the company did. 
+
+I must note, the process of looking up the words didn't always end up in me going to a dictionary - that actually wasn't usually the best idea. Would you go to a dictionary to learn the parts of a guitar? Probably not. Instead, utilize all of the resources I've listed above - no matter how small the thing you're trying to learn great explinations exist out there. 
 
 ### Know When to Take a Break
 
@@ -113,15 +116,23 @@ Be comfortable with failure
 Just not for you
 Give it your best
 
-### Know the Goal
-
-What's your goal
-fun
-career
-
 ### Don't Forget to Give Back
 
 I always told myself that one day, in all of the knowledge I was acquiring from the efforts of others, that I'd give back to those following the path I just walked. I ask that as you learn, share what you have learned with others. It doesn't necessarily have to be direct teaching - you could do write-ups about projects you work on, share posts on Instagram and reply to comments, or whatever else works for you. 
+
+### Share Your Progress and Product With the World
+
+### Pat Yourself on the Back
+
+I think Shawn Achor's TEDx talk on _The Happy Secret to Better Work_ puts it better than I can, so I'll leave it to him.
+
+> And I found that most companies and schools follow a formula for success, which is this: If I work harder, I'll be more successful. And if I'm more successful, then I'll be happier. That undergirds most of our parenting and managing styles, the way that we motivate our behavior.
+
+> And the problem is it's scientifically broken and backwards for two reasons. Every time your brain has a success, you just changed the goalpost of what success looked like. You got good grades, now you have to get better grades, you got into a good school and after you get into a better one, you got a good job, now you have to get a better job, you hit your sales target, we're going to change it. And if happiness is on the opposite side of success, your brain never gets there.
+
+The full video is worth a watch:
+
+{{< youtube fLJsdqxnZb0 >}}
 
 Share with the world
 this blog
