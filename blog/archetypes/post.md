@@ -14,7 +14,8 @@
         "Web Development",
         "Wood Working"
     ],
-    "project": ""
+    "project": "",
+    "description": ""
 }
 <!-- Templates
 
