@@ -58,12 +58,15 @@ body {
     font-size: 18px;
     line-height: 1.5625; // 25 / 16
     transition: 0.2s font, 0.2s color;
-    max-width: 1200px;
-    margin: 0 auto;
 
     @media screen and (max-width: $screen-width-split) {
         font-size: 14px;
     } 
+}
+
+.site-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 a { 
@@ -100,6 +103,11 @@ header {
 
     p {
         margin: 0;
+    }
+    
+    @media screen and (max-width: $screen-width-split) {
+        margin: spacing(small);
+        padding: spacing(small);
     }
 }
 
@@ -207,7 +215,7 @@ main.single {
     }
 
     @media screen and (max-width: $screen-width-split) {
-        margin: 0 spacing(large) 0 spacing(large) ;
+        margin: spacing(small) spacing(small) 0 spacing(small);
     }
 
 }
@@ -238,8 +246,21 @@ main.list {
         margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
-    article:first-child h2 {
-        // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
+    @media screen and (max-width: $screen-width-split) {
+        margin: 0;
+
+        h2 {
+            margin: spacing(small) 0;
+        }
+
+        article {
+            margin: spacing(small);
+            padding: spacing(medium);
+        }
+
+        article:first-child {
+            margin-top: spacing(small);
+        }
     }
 }
 
@@ -284,7 +305,7 @@ aside.sidebar {
     }
 
     @media screen and (max-width: $screen-width-split) {
-        margin: 0 spacing(large) spacing(large) spacing(large);
+        margin: 0 spacing(small);
         display: flex;
         flex-basis: auto;
     }
@@ -294,7 +315,12 @@ div.pagination {
     border: $primary-divider;
     box-sizing: border-box;
     margin: spacing(large) 0 0 0;
-    padding: spacing(large);   
+    padding: spacing(large);  
+    
+    @media screen and (max-width: $screen-width-split) {
+        margin: spacing(small) 0 0 0;
+        padding: spacing(medium);  
+    }
 }
 
 footer {
@@ -302,5 +328,10 @@ footer {
     box-sizing: border-box;
     margin: spacing(large);
     padding: spacing(large);   
+
+    @media screen and (max-width: $screen-width-split) {
+        margin: spacing(small);
+        padding: spacing(medium);   
+    }
 }
 

@@ -23,14 +23,16 @@
 </head>
 
 <body>
-	<header>
-		<h1><a id="site-title" href="{{ .Site.BaseURL }}"></a></h1>
-		<p>I make, Therefore I Am.</p>
-		<nav>
-			<ul>
-				{{ range .Site.Menus.main }}
-				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-				{{ end }}
-			</ul>
-		</nav>
-	</header>
+	<div class="site-wrapper">
+		<!-- CSS is Dumb, or just me. -->
+		<header>
+			<h1><a id="site-title" href="{{ .Site.BaseURL }}"></a></h1>
+			<p>I make, Therefore I Am.</p>
+			<nav>
+				<ul>
+					{{ range .Site.Menus.main }}
+					<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+					{{ end }}
+				</ul>
+			</nav>
+		</header>
