@@ -45,7 +45,7 @@ $font-code-snippet: $nanum-gothic-coding;
   
     @return map-get($spacings, $spacing-name);
 }
-
+$screen-width-split: 600px;
 $primary-divider: 2px solid color(primary);
 $primary-divider-hover: 2px solid color(highlight01);
 
@@ -60,6 +60,10 @@ body {
     transition: 0.2s font, 0.2s color;
     max-width: 1200px;
     margin: 0 auto;
+
+    @media screen and (max-width: $screen-width-split) {
+        font-size: 14px;
+    } 
 }
 
 a { 
@@ -101,6 +105,10 @@ header {
 
 .content-wrapper {
     display: flex;
+
+    @media screen and (max-width: $screen-width-split) {
+        flex-direction: column;
+    }
 }
 
 main.single {
@@ -198,6 +206,10 @@ main.single {
         margin: 0px auto !important;
     }
 
+    @media screen and (max-width: $screen-width-split) {
+        margin: 0 spacing(large) 0 spacing(large) ;
+    }
+
 }
 
 main.list {
@@ -269,6 +281,12 @@ aside.sidebar {
     section:first-child h3 {
         // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
         line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
+    }
+
+    @media screen and (max-width: $screen-width-split) {
+        margin: 0 spacing(large) spacing(large) spacing(large);
+        display: flex;
+        flex-basis: auto;
     }
 }
 
