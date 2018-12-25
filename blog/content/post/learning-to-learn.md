@@ -69,7 +69,7 @@ This one is pretty straight forward. Ask questions of those immediately around y
 
 #### Internet Gatherings
 
-If for whatever reason, local meetups don't work for you, there are a plethora of online communities to join. A few great platforms I've noticed for discussions include Slack, Discord, IRC, forums, and Reddit. A quick Google search for phrases such as "programming Slack communities" wil turn up [lists](https://techbeacon.com/46-slack-groups-developers) like this. I imagine it shouldn't be hard to find a community that fits your interest. Keep in mind, that some communities are better than others so try a few out and see which one(s) work best for you. 
+If for whatever reason, local meetups don't work for you, there are a plethora of online communities to join. A few great platforms I've noticed for discussions include Slack, Discord, IRC, forums, and Reddit. A quick Google search for phrases such as "programming Slack communities" will turn up [lists](https://techbeacon.com/46-slack-groups-developers) like this. I imagine it shouldn't be hard to find a community that fits your interest. Keep in mind, that some communities are better than others so try a few out and see which one(s) work best for you. 
 
 ### Find Great Teaching Resources
 
