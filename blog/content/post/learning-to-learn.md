@@ -17,31 +17,43 @@
     "project": ""
 }
 
+<!-- Where to Post
+
+https://www.reddit.com/r/GetMotivated/
+https://www.reddit.com/r/learnprogramming/
+https://news.ycombinator.com/submit
+
+ -->
+
 ### Background
 
-Four years ago, while looking for jobs after I finished my Peace Corps service, I stumbled upon a listing asking for a portfolio either as a PDF or website. I knew almost nothing about software development and like any rational person, opted to build a website to showcase my talents and experience. The journey was far from easy. However, I have developed a set of skills that have enabled me to learn new subjects and I'd like to share them with you.
+Before I really developed the ability to "learn how to learn", I embarked on an ambitious project to build a camera so that I could learn more about how electronics worked. It involved connecting various electrical components together, programming in C++, soldering, and building a little user interface to interact with it. 
 
-Before I'd really cemented my process of "learning how to learn", I embarked on an ambitious project, my first large electronics project, documented [here]({{< ref "/project/combining-hobbies">}}). It involved soldering, programming in C++, connecting various electrical components together, and designing a user interface, consisting of buttons and a screen, through which to interact with the device. 
+{{< instagram BH2T0sbjC7P hidecaption >}}
 
-### Develop a Support Network
+One Saturday afternoon, while working on the project, i encountered a bug somewhere in the code or an issue with the circuit. I spent nearly 6 hours throughout the remainder of my weekend struggling and then eventually finding the solution. On Tuesday, I went to a [meetup for makers](http://www.cambridgehackspace.com/) I frequented where I asked a fellow maker how he would have diagnosed the problem. Without pause, he said, "I would have checked X and Y to see that they were connected correctly." The details aren't important, but that was exactly what I discovered after those 6 painful hours. 
 
-I have personally found that when I learn new subjects, I like to find a project I am excited about and throw myself into the deepend. The easiest way I've found to do this is find another hobby I'm passionate about and use that as the focus. In this case, I decided to build a camera. One day, while working on it, I encountered a issue somewhere in the code or with the circuit. I spent nearly 6 hours throughout my weekend floundering around finally stumbling upon the solution. On Tuesday, I went to my weekly meetup for makers where I asked a fellow maker how he would have diagnosed the problem. Without pause, he said, "I would have checked X and Y to see that they were done correctly." The details aren't important, but that was exactly what I discovered after those 6 painful hours. It is super important, especially when initially embarking on learning a completely unknown subject, to have places to go to get quick answers. 
+In the pursuit of learning about electronics and other subjects, I have developed a set of skills that have enabled me to learn new subjects more quickly and thoroughly and with less frustration. For me, learning new subjects is now much more rewarding and enjoyable than it used to be and I hope that I can share some of what I have learned with you.
 
-#### Remember: A Bit of Struggle is a ~~Good~~ Great Thing
+### Avoid Analysis Paralysis and Just Get Going
 
-While 6 hours of struggling was not helpful in learning more about electronics giving up when I first encountered the bug wouldn't have been very helpful either. I have found that there's a sweet spot, usually somewhere between the thirty minute and two hour mark where there is more experience to be gained than frustration to be encountered. 
+I see a lot of beginner programmers ask questions like "What's the best language to learn?". They'll then spend weeks reading about each language, weighing the pros and cons, not writing a single line of code, then giving up on programming altogether. Spending all your time planning which way you'll go instead of just going can be a dangerous thing. I suggest pick a direction and go. Even if you start moving the wrong way, you'll take away something from the experience and can readjust yourself in the future and head in a better direction.
+
+### Find Yourself a Good Community
+
+Having a good community is critical to your education. As you begin to teach yourself a new subject, there is the very real chance you're teaching yourself something that could be done better or is incorrect. As the saying goes, about teaching an old dog new tricks, learning bad habits that go uncorrected can lead to some real pains later on in your journey. A community offers a place to ask questions, get feedback and critique, and help those that follow in your footsteps.
+
+I've listed a few of my favorite communities below.
+
+*Note*: A Bit of Struggle is a ~~Good~~ Great Thing
+
+While 6 hours of struggling was not helpful in learning more about electronics, giving up when I first encountered the bug wouldn't have been very good either. I have found that there's a sweet spot, for me it's usually somewhere between the thirty minute and two hour mark where there is more experience to be gained than frustration to be encountered. 
 
 {{< figure src="/image/learning-to-learn/learning-over-time.png" title="The Sweet Spot" >}}
 
-Two reasons - learn to exercise the frustration muscle, learn more about the subject. 
+A bit of struggling is great for two reasons. The first is that you learn to deal with frustration and the unknown. Learning a new subject, such as programming, can be quite frustrating so developing a "frustration muscle" to deal with challenging moments is helpful. Secondly, in the pursuit of solving the issue at hand causes you to consider various sources for the issue. In the process of addressing potential causes, you'll learn more about the subject, perhaps unrelated, but still valuable nonetheless.
 
-#### Find Yourself a Good Community
-
-Having a good community is critical to your education. As you begin to teach yourself a new subject, there is the very real chance you're teaching yourself something incorrect. As the saying goes, about teaching an old dog new tricks, learning bad habits that go uncorrected can lead to some real pains later on in your learning journey. A community offers a place to ask questions, get feedback and critique, and help those that follow in your footsteps.
-
-If you're struggling to think of a good community to join, below are a few of mine.
-
-##### Local Meetups
+#### Local Meetups
 
 One of the first things I did when I moved to Boston was start attending [local meetups](https://www.meetup.com/). Meetups offer a great, generally free or cheap, space to listen to experts talk on various subjects, chat with others interested in the same subject, and work on your personal projects. There's sometimes even free food and drink! Two examples of great meetups are the [Boston Python User Group](https://www.meetup.com/bostonpython/) and the [Cambridge Hackspace](https://www.meetup.com/Cambridge-Hackspace/). 
 
@@ -51,11 +63,11 @@ At the Cambridge Hackspace, every Tuesday is open night where you can come and w
 
 Check out the website and look for meetups in your area!
 
-##### Friends, Family, & Coworkers
+#### Friends, Family, & Coworkers
 
 This one is pretty straight forward. Ask questions of those immediately around you! When I first moved to Boston, I took a temp job at a small electrical engineering firm. I decided to start learning about circuits and building products. I picked the brains of lots of my coworkers on subjects including assembly, circuit board design, packaging, shipping, customer support, and sales.  
 
-##### Internet Gatherings
+#### Internet Gatherings
 
 If for whatever reason, local meetups don't work for you, there are a pleathora of online communities to join. Of the communities I have found they range in terms of what they're useful for. Discord and Slack are great for more realtime chatroom style discussions. Reddit is great for discussions that last for a day or so. Forums, are great for longer lasting more focussed discussions. 
 
@@ -69,7 +81,7 @@ Reddit - There's a discussion for everything today. For example, in the realm of
 
 Slack Groups
 
-### Find the Best Resources
+### Find Great Teaching Resources
 
 In my opinion, one of the most amazing things about the internet is the sheer amount of content there is out there to consume. Compounding the quantity of content is the rating systems that usually go along with them to tell you whether said content is worthwhile or not. 
 
@@ -116,11 +128,6 @@ Be comfortable with failure
 Just not for you
 Give it your best
 
-### Don't Forget to Give Back
-
-I always told myself that one day, in all of the knowledge I was acquiring from the efforts of others, that I'd give back to those following the path I just walked. I ask that as you learn, share what you have learned with others. It doesn't necessarily have to be direct teaching - you could do write-ups about projects you work on, share posts on Instagram and reply to comments, or whatever else works for you. 
-
-### Share Your Progress and Product With the World
 
 ### Pat Yourself on the Back
 
@@ -134,13 +141,13 @@ The full video is worth a watch:
 
 {{< youtube fLJsdqxnZb0 >}}
 
-Share with the world
-this blog
-youtube
-mentor others
-instagram
-etc
+### Share Your Progress and Product With the World & Give Back
 
+I always told myself that one day, in all of the knowledge I was acquiring from the efforts of others, that I'd give back to those following the path I just walked. I ask that as you learn, share what you have learned with others. It doesn't necessarily have to be direct teaching - you could do write-ups about projects you work on, share posts on Instagram and reply to comments, or whatever else works for you. 
+
+### Call to Action
+
+These are the skills that helped me in my journey. What has helped you? I'm excited to hear, make a comment below. 
 
 
 

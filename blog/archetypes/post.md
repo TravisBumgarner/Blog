@@ -16,7 +16,28 @@
     ],
     "project": ""
 }
+<!-- Templates
 
-{{< youtube id >}}
+{{< youtube id >}} 
 {{< figure src="/image/{{ .Name }}/file.jpg" title="Title" >}}
+
+-->
+
+<!-- Where to Post
+
+
+ -->
+
+ <!-- Keywords
+ 
+ -- >
+
+<!-- Brainstorm
+
+
+ -->
+
+
+
+### Call to Action
 
