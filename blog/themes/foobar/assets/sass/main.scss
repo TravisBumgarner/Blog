@@ -108,6 +108,10 @@ header {
     @media screen and (max-width: $screen-width-split) {
         margin: spacing(small);
         padding: spacing(small);
+
+        h1 {
+            font-size: font-sizing(large);
+        }
     }
 }
 
