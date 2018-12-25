@@ -1,14 +1,13 @@
 {{ partial "header.html" . }}
 <div class="content-wrapper">
 	{{ partial "sidebar.html" . }}
-	<main class="list">
-		{{ partial "about.html" . }}
+<main class="list">
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
 		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
+		{{ partial "summary.html" . }}
 		{{ end }}
 		{{ if gt (len $paginator.Pages) 10 }}
-			{{ partial "pagination.html" . }}
+		{{ partial "pagination.html" . }}
 		{{ end }}
 	</main>
 </div>

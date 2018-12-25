@@ -13,9 +13,9 @@
     $sizings: (
         xsmall: 1rem,
         small: 1.5rem,
-        medium: 1.875rem,
-        large: 2.1875rem,
-        xlarge: 2.5rem       
+        medium: 1.675rem,
+        large: 1.6rem,
+        xlarge: 2rem       
     );
   
     @return map-get($sizings, $sizing-name);
@@ -226,6 +226,7 @@ main.single {
 
 main.list {
     margin: 0 spacing(large) 0 0;
+    flex-grow: 1;
 
     h2 {
         color: color(primary);
@@ -271,12 +272,17 @@ main.list {
 aside.sidebar {
     flex-basis: 240px;
     flex-shrink: 0;
+    max-width: 240px;
     flex-grow: 1; // Fill up horizontal space after max width on posts is reached
     // height: 0%; // Stops sidebar from expanding with flex;
 
     border: $primary-divider;
     box-sizing: border-box;
     margin: 0 spacing(large);
+
+    a.active {
+        font-weight: 700;
+    }
 
     ul {
         list-style-type: none;
@@ -331,7 +337,13 @@ footer {
     border: $primary-divider;
     box-sizing: border-box;
     margin: spacing(large);
-    padding: spacing(large);   
+    padding: spacing(large);  
+    
+    h3 {
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: $font-header;
+    }
 
     @media screen and (max-width: $screen-width-split) {
         margin: spacing(small);

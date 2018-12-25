@@ -2,7 +2,7 @@
     "title": "How I Learn",
     "date": "2019-01-22T09:00:00-00:00",
     "draft": true,
-    "tools": [""],
+    "tools": [],
     "topics": [
         "Digital Design",
         "Entrepreneurship",

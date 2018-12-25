@@ -2,7 +2,7 @@
     "title": "Stranger Things Lights",
     "date": "2018-12-23T20:29:25-05:00",
     "draft": true,
-    "tools": [""],
+    "tools": [],
     "topics": [
         "Digital Design",
         "Entrepreneurship",

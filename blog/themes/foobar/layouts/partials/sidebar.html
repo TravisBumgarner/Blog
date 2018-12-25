@@ -1,4 +1,4 @@
-<aside class="sidebar">
+<aside class="sidebar" id="sidebar">
     <section>
         <div>
             <h3>Topics</h3>
@@ -6,7 +6,7 @@
         <div>
             <ul>
                 {{ range $key, $value := .Site.Taxonomies.topics }}
-                <li><a href="/topics/{{ $key }}">{{ humanize $key}}</a></li>
+                <li><a href="/topics/{{ $key }}/">{{ humanize $key}}</a></li>
                 {{ end }}
             </ul>
         </div>
@@ -18,8 +18,8 @@
         <div>
             <ul>
                 {{ range $key, $value := .Site.Taxonomies.tools }}
-                <li><a href="/tools/{{ $key }}">{{$key}}</a></li>
-                
+                <li><a href="/tools/{{ $key }}/">{{$key}}</a></li>
+
                 {{ end }}
             </ul>
         </div>

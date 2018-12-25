@@ -23,3 +23,15 @@ const makeNewSiteTitle = () => {
 (function () {
     makeNewSiteTitle()
 })();
+
+(function () {
+    const links = document.getElementById('sidebar').getElementsByTagName('a')
+    const currentUrl = location.href
+    console.log('current', currentUrl)
+    for (const link of links) {
+        console.log(link.href)
+        if (link.href === currentUrl) {
+            link.classList.add('active')
+        }
+    }
+}())
