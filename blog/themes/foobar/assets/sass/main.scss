@@ -298,21 +298,13 @@ aside.sidebar {
         font-weight: 400;
         text-transform: uppercase;
         font-family: $font-header;
+        line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
     section {
         box-sizing: border-box;
         // margin: spacing(large);
         padding: spacing(large);
-    }
-
-    section:first-child {
-        // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
-    }
-
-    section:first-child h3 {
-        // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
-        line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
     @media screen and (max-width: $screen-width-split) {
