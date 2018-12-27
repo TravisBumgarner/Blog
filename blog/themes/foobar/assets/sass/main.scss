@@ -1,3 +1,12 @@
+/* Reset */
+
+h1, h2, h3, h4, h5, h6, div, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* End Reset */
+
 @function color($color-name) {
   $colors: (
     primary: #09113A,
@@ -14,7 +23,7 @@
         xsmall: 1rem,
         small: 1.2rem,
         medium: 1.4rem,
-        large: 1.6rem,
+        large: 1.8rem,
         xlarge: 2rem       
     );
   
@@ -93,7 +102,7 @@ header {
     margin: spacing(large);
     padding: spacing(large);
 
-    h1 {
+    h1 a {
         font-weight: 700;
         color: color(primary);
         font-family: $font-header;
@@ -131,7 +140,7 @@ main.single {
     padding: spacing(large);
     
     section {
-        margin: spacing(xlarge) 0;
+        margin: spacing(medium) 0;
     }
 
     blockquote {
@@ -166,14 +175,14 @@ main.single {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(large);
-        margin: spacing(medium) 0;
+        margin: 0 0 spacing(medium) 0;
 
         // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
         line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
     
     h3 {
-        font-weight: 400;
+        font-weight: 700;
         margin: spacing(medium) 0;
         color: color(primary);
         font-family: $font-header;
@@ -182,6 +191,7 @@ main.single {
     }
     
     h4 {
+        font-weight: 400;
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(small);
@@ -233,7 +243,7 @@ main.list {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(medium);
-        margin: spacing(medium) 0;
+        margin: 0 0 spacing(medium) 0;
         line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
@@ -276,7 +286,6 @@ aside.sidebar {
     max-width: 240px;
     flex-grow: 1; // Fill up horizontal space after max width on posts is reached
     // height: 0%; // Stops sidebar from expanding with flex;
-
     border: $primary-divider;
     box-sizing: border-box;
     margin: 0 spacing(large);
@@ -295,16 +304,17 @@ aside.sidebar {
     }
 
     h3 {
-        font-weight: 400;
+        font-weight: 700;
         text-transform: uppercase;
         font-family: $font-header;
+        margin: 0 0 spacing(medium) 0;
         line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
     section {
         box-sizing: border-box;
         // margin: spacing(large);
-        padding: spacing(large);
+        margin: spacing(large);
     }
 
     @media screen and (max-width: $screen-width-split) {
