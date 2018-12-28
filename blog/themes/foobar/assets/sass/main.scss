@@ -183,8 +183,9 @@ main.single {
     }
     
     h3 {
+        text-transform: uppercase;
         font-weight: 700;
-        margin: spacing(medium) 0;
+        margin: spacing(xlarge) 0 spacing(large) 0;
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(medium);
@@ -192,7 +193,8 @@ main.single {
     }
     
     h4 {
-        font-weight: 400;
+        margin: spacing(large) 0 spacing(medium) 0;
+        font-weight: 700;
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(small);
@@ -213,8 +215,8 @@ main.single {
     }
 
     ul {
-        list-style-type: none;
-        padding-left: 0;
+        // list-style-type: none;
+        padding-left: spacing(xlarge);
     }
 
     time {
