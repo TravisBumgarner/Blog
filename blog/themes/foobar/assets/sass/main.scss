@@ -121,6 +121,11 @@ header {
         h1 {
             font-size: font-sizing(large);
         }
+
+        p {
+            margin: spacing(small);
+            padding: spacing(small);
+        }
     }
 }
 
@@ -157,10 +162,6 @@ main.single {
         line-height: 0.1em;
         margin-right: 0.25em;
         vertical-align: -0.4em;
-    }
-    
-    blockquote p {
-        display: inline;
     }
 
     blockquote:after {
@@ -233,7 +234,8 @@ main.single {
     }
 
     @media screen and (max-width: $screen-width-split) {
-        margin: spacing(small) spacing(small) 0 spacing(small);
+        margin: spacing(small);
+        padding: spacing(small);
     }
 
 }
@@ -324,15 +326,19 @@ aside.sidebar {
 
     section {
         box-sizing: border-box;
-        // margin: spacing(large);
         margin: spacing(large);
     }
 
     @media screen and (max-width: $screen-width-split) {
-        margin: 0 spacing(small);
+        margin: spacing(medium) spacing(small);
         display: flex;
         flex-basis: auto;
         max-width: 100%;
+
+        section {
+            margin: spacing(small);
+            padding: spacing(small);
+        }
     }
 }
 

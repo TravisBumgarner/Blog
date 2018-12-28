@@ -67,7 +67,7 @@ I recommend giving a little something in exchange for their help, such as treati
 
 If for whatever reason, local meetups don’t work for you, there are a load of online communities to join. Slack, Discord, IRC, forums, and Reddit are a few great platforms. 
 
-Google searches such as “programming Slack communities” will turn up [lists](https://techbeacon.com/46-slack-groups-developers) like this. Which offer a great starting point to find yourself a community. 
+Google searches such as “programming Slack communities” will turn up lists like [this](https://techbeacon.com/46-slack-groups-developers). This should offer a great starting point to finding yourself a community. 
 
 Keep in mind, that some communities are better than others so try a few out and see which one(s) work best for you.
 
@@ -88,12 +88,12 @@ Only once has this strategy failed me and I ended up with a book I didn’t enjo
 There is a ton of online content out there. Below are a list of my favorites. 
 
 * [Pluralsight](https://pluralsight.com) is a great online platform for technical skills. It has curated video content, skills assessments, and other tools to learn and gauge your learning. 
-* YouTube - It has everything from short clips to full courses
+* YouTube has everything from short clips to full courses.
 * [edX](https://www.edx.org/) offers free recordings and resources from top universities like MIT and Harvard. 
 
 #### Live Video Content
 
-Twitch is perhaps an unexpected item on this list. While you probably know it for streaming video games, it's also a great place to learn. Beyond video games, you can watch people playing music, painting, and programming.
+[Twitch](https://www.twitch.tv/directory/) is perhaps an unexpected site to find here. While you probably know it for streaming video games, it's also a great place to learn. Beyond video games, you can watch people playing music, painting, and programming.
 
 ### Recursive Learning
 
@@ -107,7 +107,7 @@ Recursive learning is an important skill. Self teaching isn't linear.  You’ll 
 
 ### Know When to Take a Break
 
-Burnout is a great way to kill interest in a subject. A few years ago, I decided to start learn programming in pursuit of a new career.
+Burnout is a great way to kill interest in a subject. A few years ago, I decided to learn programming in pursuit of a new career.
 
 I would throw myself at it for hours on end. Sometimes I would sit in a cafe for 8 to 10 hours a day, head home, and resume programming until the wee hours of the morning.
 
@@ -133,11 +133,11 @@ Imagine two situations - working for 5 hours straight, or working for 2 periods 
 
 #### Ask For Help
 
-Sometimes, in the middle of learning, it’s a struggle to know when to stop and ask for help. As mentioned above that a bit of struggle is a great thing, too much can have negative consequences. 
+As mentioned above that a bit of struggle is a great thing, too much can have negative consequences. Sometimes, in the middle of learning, it’s a struggle to know when to stop and ask for help. Be aware, and know when to stop and get help.
 
 ### Know When to Quit
 
-For the longest time, I struggled with the word failure. Growing up, I came to see failure as something avoided at all costs, equating it with a lack of effort.
+For the longest time, I struggled with the word failure. Growing up, I came to see failure as something to be avoided at all costs, equating it with a lack of effort.
 
 Failing something such as a math test was unacceptable.
 
@@ -145,7 +145,7 @@ In life after classrooms, I realized that there’s more to the term than what I
 
 Sometimes learning a new subject doesn’t work out. For as many things I’ve succeeded at, there’s an equal number of failures.
 
- I like to explore and learn until I’ve lost interest or satisfied my curiosity. It’s definitely easier said than done. Walking the line between being being frustrated and being stopping is something that comes with experience and time. 
+ I like to explore and learn until I’ve lost interest or satisfied my curiosity. It’s definitely easier said than done. Walking the line between being temporarily frustrated and permanently done is something that comes with experience and time. 
 
 I'll leave that decision up to you. 
 
