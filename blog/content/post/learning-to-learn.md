@@ -1,6 +1,6 @@
 {
     "title": "Learning to Learn: Develop Skills to Master Anything",
-    "date": "2018-12-23T17:28:02-05:00",
+    "date": "2019-01-15T09:00:00-00:00",
     "draft": false,
     "topics": [
         "My Process"
