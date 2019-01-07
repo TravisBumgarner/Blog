@@ -1,11 +1,11 @@
 {
     "title": "Learning to Learn: Develop Skills to Master Anything",
-    "date": "2019-01-15T09:00:00-00:00",
+    "date": "2018-12-28T17:28:02-05:00",
     "draft": false,
     "topics": [
         "My Process"
     ],
-    "project": "",
+    "project": "learning-to-learn",
     "description": "In the pursuit of learning about electronics and other subjects, I have developed a set of skills that have enabled me to learn new subjects more quickly and thoroughly and with less frustration. For me, learning new subjects is now much more rewarding and enjoyable than it used to be and I hope that I can share some of what I have learned with you."
 }
 
