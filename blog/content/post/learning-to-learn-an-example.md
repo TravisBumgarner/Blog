@@ -39,8 +39,7 @@ Paralysis - jumped right in and started playing around. Took about a week, reali
 
 
  -->
-
- ### Motivation
+### Motivation
 
 When I set out to build this blog, I had my original post about [Learning to Learn](/post/learning-to-learn) in mind. In that post, I discussed all the methods I have developed over the years to more effectively learn new subjects. I thought what could be a better method to demonstrate those experiences than documenting how I applied Learning to Learn to build this blog. This is the Trip Report and roughly the steps that I took to get from novice to functioning blog.
 
@@ -60,9 +59,46 @@ I decided to give my network a try.
 
 Two of my coworkers blog. I've read several of their posts and I like their blogs so I reached out. Both of them use [Hugo](https://gohugo.io). What did they think about it? They loved it. Well that was easy. Hugo it is.
 
-### Designing & Coding & Learning
+### Create
 
-Alright. I have a platform. I know two people to reach out to for help. (But I won't bug them first, remember, a bit of struggle is important. If you're lost here, go back and read [Learning to Learn](/post/learning-to-learn)!) Now what? Nothing about how I learn is linear. Hopefully, you'll gain something interesting from this section!
+I have a platform. Now to create something with it. 
+
+{{< figure src="/image/learning-to-learn-an-example/diagram.png" title="My Process" >}}
+
+Above is a typical diagram of the steps I go through on a project. As you can see, it is very much not linear. I have found, for me at least, that learning things incrementally isn't always the best way to do it. I've watched several hour courses on programming. I'll then try and start a project, and realize I haven't actually learned anything. 
+
+#### Ponder
+
+I have found that sitting and staring at a keyboard is not always the best way to think about new ideas. For example, when I write a blog post, I try to avoid starting with a text editor. A text editor has a cursor. That cursor heavily suggests that you should think, and therefore write, left to right, top to bottom. 
+
+Instead, I'll grab pen and paper without lines, a whiteboard, or just ponder things on my morning commute. 
+
+I love to let ideas sit in the back of my head. 
+
+Pondering usually results in questions
+
+#### Learn
+
+Take what I've pondered and learn
+
+
+#### Build
+
+The quickest way to answer questions I've pondered/learned is to start building something
+
+
+ This is the reason I introduced the idea of Recursive Learning in my previous post. Here is what the first ten hours looked like for me:
+
+1. Run through the Getting Started tutorial on the Hugo website.
+2. Watch a YouTube tutorial at 2x speed to supplement what I learned in #1.
+3. 
+
+
+On the train to work, I started pondering how Hugo handled CSS and SASS, so I headed to Google and did some reading. 
+
+
+
+I know two people to reach out to for help. (But I won't bug them first, remember, a bit of struggle is important. If you're lost here, go back and read [Learning to Learn](/post/learning-to-learn)!) Now what? Nothing about how I learn is linear. Hopefully, you'll gain something interesting from this section!
 
 Time to find a tutorial. It's always exciting to find out that a new technology has great documentation. I headed to the Hugo website and ran through the quick start tutorial. 
 
@@ -70,9 +106,8 @@ Post interesting questions here:
 
 
 
+
 Random questions started popping into my head and I took lots of tangents. As they came to mind, I'd research them.
-
-
 
 
 ### Struggle
@@ -88,10 +123,6 @@ There's this voice in the back of my mind when tackling projects like this. He's
 
 He likes to repeat himself.
 
-
-
-
-
 ### Call to Action
 
-What has helped you? I'm excited to hear, make a comment below!
+Experience any interesting aha moments while reading this post? Comment below, I'd love to hear!
