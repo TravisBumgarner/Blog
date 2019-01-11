@@ -17,10 +17,16 @@
     "project": "",
     "description": ""
 }
+
 <!-- Templates
 
 {{< youtube id >}} 
 {{< figure src="/image/{{ .Name }}/file.jpg" title="Title" >}}
+
+-->
+
+<!-- What are your three yeses? (Readers should nod their head yes to the headline, subheading, and first sentence.)
+
 
 -->
 
