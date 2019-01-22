@@ -9,14 +9,6 @@
     "description": "In the pursuit of learning about electronics and other subjects, I have developed a set of skills that have enabled me to learn new subjects more quickly and thoroughly and with less frustration. For me, learning new subjects is now much more rewarding and enjoyable than it used to be and I hope that I can share some of what I have learned with you."
 }
 
-<!-- Where to Post
-
-https://www.reddit.com/r/GetMotivated/
-https://www.reddit.com/r/learnprogramming/
-https://news.ycombinator.com/submit
-
- -->
-
 ### Background
 
 Before I mastered the ability to “learn how to learn”, I embarked on an ambitious project. I decided to build a camera to learn more about how electronics worked. The project involved connecting electrical components, programming, soldering, and a user interface.

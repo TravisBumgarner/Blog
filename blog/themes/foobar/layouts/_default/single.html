@@ -3,7 +3,7 @@
 	{{ partial "sidebar.html" . }}
 	<main class="single">
 		<article>
-			<h2>{{ .Title }}</h2>
+			<h2 class="title">{{ .Title }}</h2>
 			<time>{{ .Date.Format "Monday, January 2, 2006" }}</time>
 			<section>
 				{{ .Content }}
@@ -29,7 +29,7 @@
 					{{ end }}
 			</section>
 			<section>
-				<h2>Comment</h2>
+				<h2 class="comments">Comments</h2>
 				{{ template "_internal/disqus.html" . }}
 			</section>
 		</article>
