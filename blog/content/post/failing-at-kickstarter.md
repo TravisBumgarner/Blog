@@ -10,7 +10,9 @@
     "description": "In 2016, I set out to launch my first product on Kickstarter. I failed, did some research, tried again and succeeded. These are my observations."
 }
 
-*Note*: This article was originally published to the Painless Prototyping Blog (now deactivated) on September 18, 2016. 
+*Note*: This article was originally published to the Painless Prototyping Blog (now deactivated) on September 18th, 2016. 
+
+{{< figure src="/image/failing-at-kickstarter/kickstarter.jpg" title="Kickstarter Taret Missed" >}}
 
 At the beginning of this journey, I had no idea what I was doing with my first [Kickstarter project](http://kck.st/2a8ZoUL). I created an account, started a project, and set about filling out all the required fields with text, photos, mock-up images, a video, a proposed budget, and hit submit. In the end, I canceled the project after two weeks, having received only 15% of my desired funding of $1,500. I headed back to the drawing board, made some edits, and [tried again](https://www.kickstarter.com/projects/267560573/button-board-prototyping-electronics-the-painless). The second time around, I reached 100% funding in less than 24 hours and 500% overall. Here are a collection of the things I learned along the way that might help you out in your own journey. If you have any questions, please throw them in the comments section at the bottom of the page and I’ll respond when I can.
 
