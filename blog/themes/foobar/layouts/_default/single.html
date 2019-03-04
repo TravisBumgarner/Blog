@@ -18,15 +18,15 @@
 			<section>
 				{{ $all_posts := where .Site.Pages ".Type" "post" }}
 				{{ $other_posts := where $all_posts ".Title" "<>" .Title }}
-					{{ $related_posts := where $other_posts "Params.project" .Params.project }}
-					{{ if $related_posts }}
-					<h2>Read More Posts On Project</h2>
-					<ul>
-						{{ range sort $related_posts ".Params.date" }}
-						<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-						{{ end }}
-					</ul>
+				{{ $related_posts := where $other_posts "Params.project" .Params.project }}
+				{{ if $related_posts }}
+				<h2>More Posts Related to this</h2>
+				<ul>
+					{{ range sort $related_posts ".Params.date" }}
+					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 					{{ end }}
+				</ul>
+				{{ end }}
 			</section>
 			<section>
 				<h2 class="comments">Comments</h2>
