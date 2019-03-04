@@ -1,5 +1,5 @@
 {
-    "title": "On Failing",
+    "title": "What it Means to Fail",
     "date": "2019-03-19T11:32:39-05:00",
     "draft": false,
     "tools": [],
