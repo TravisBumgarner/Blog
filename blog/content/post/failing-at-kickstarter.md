@@ -1,6 +1,6 @@
 {
     "title": "What I learned from Failing with Kickstarter",
-    "date": "2019-03-04T11:19:53-05:00",
+    "date": "2019-03-25T11:19:53-05:00",
     "draft": false,
     "tools": [],
     "topics": [
