@@ -90,7 +90,26 @@ Introduction
     - Be polite.
     - Say please and thank you. 
 
+### Online Interviews
 
+- **Do a test run beforehand**
+    - Your internet should be fast enough. All required software should be installed. 
+- **Be professional**
+    - Even though you're not interviewing in person, you should still put your best foot forward. Put on nice clothes, make sure the background where you'll be sitting is clean and free of distraction. 
+
+
+### Coding Challenges
+    - Practice them when you have time
+
+#### Pre Interview Research
+
+ - **Know the Interviewer**
+    - If you get their name beforehand look them up. Their background will tell you more about what to expect from the interview. 
+ - **Prepare questions for them about themselves and the company**
+    - It shows that you're excited about the prospect of working for the company.
+ - **Practice Soft Skills Questions**
+    - Before every interview, I like to review [this list](https://www.themuse.com/advice/how-to-answer-the-31-most-common-interview-questions) and practice a few of the questions. 
+    
 The HR phone screen
 
 The technical phone screen
