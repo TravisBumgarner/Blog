@@ -21,10 +21,9 @@ h1, h2, h3, h4, h5, h6, div, p, ul, li {
 @function font-sizing($sizing-name) {
     $sizings: (
         xsmall: 1rem,
-        small: 1.2rem,
-        medium: 1.4rem,
-        large: 1.8rem,
-        xlarge: 2rem       
+        small: 1.5rem,
+        medium: 1.9rem,
+        large: 2.1rem,
     );
   
     @return map-get($sizings, $sizing-name);
@@ -195,6 +194,7 @@ main.single {
         font-family: $font-header;
         font-size: font-sizing(medium);
         // text-transform: uppercase;
+        border-bottom: 1px solid black;
     }
     
     h4 {

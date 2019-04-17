@@ -45,11 +45,13 @@
  -->
 
 
-Introduction
--really good at interviewing
-- lots of resume reviews
+### Introduction
 
-### The Resume
+I've reviewed resumes and interviewed candidates. I've helped others with resume reviews and mock interviews. I have spent the last few years transitioning into software engineering. These are a collection of experiences that I hope will help you make your own way into the field. 
+
+I've split the sections up...
+
+### Resume
 
 #### Format & Design
 
@@ -74,8 +76,14 @@ Introduction
 - **Make past experience relevant**
     - Most jobs involve switching industries or moving between different companies. Jargon and technologies that make sense at one job might mean nothing at the next. Place yourself in the interviewer's shoes and adjust your skills so that they understand even if they don't have a background in the company or industry you're coming from.
 
-### The Process
+### Enduring the Job Search
 
+- **Treat everyone with respect**
+    - Be polite.
+    - Say please and thank you. 
+- **Don't burn bridges**
+    - Do not ghost.
+    - The world is a lot smaller than you think. Burning a bridge with an interviewer might have no effect now but might catch you two years down the road. 
 - **It's a marathon not a sprint**
     - Keep to a routine and don't burn yourself out. 
     - I tried to apply to at least 3 jobs a day Monday to Friday and didn't job search on the weekend. Every Tuesday and Thursday I'd try and connect with at least 1 or 2 connections on LinkedIn. 
@@ -85,43 +93,55 @@ Introduction
 - **Use every interview as a learning opportunity**
     - Every question I didn't know the answer to, I'd make a mental note of and learn it later. 
     - If you don't get a position, ask politely what you can improve on. Not everyone can or will give feedback but it never hurts to ask. 
-- **Treat everyone with respect**
-    - Show up on a few minutes early.
-    - Be polite.
-    - Say please and thank you. 
 
-### Online Interviews
+### Interview Prep
 
-- **Do a test run beforehand**
-    - Your internet should be fast enough. All required software should be installed. 
-- **Be professional**
-    - Even though you're not interviewing in person, you should still put your best foot forward. Put on nice clothes, make sure the background where you'll be sitting is clean and free of distraction. 
-
-
-### Coding Challenges
-    - Practice them when you have time
-
-#### Pre Interview Research
-
- - **Know the Interviewer**
+- **Know the Interviewer**
     - If you get their name beforehand look them up. Their background will tell you more about what to expect from the interview. 
- - **Prepare questions for them about themselves and the company**
+- **Prepare questions for the Interviewer about their background and the company**
     - It shows that you're excited about the prospect of working for the company.
- - **Practice Soft Skills Questions**
-    - Before every interview, I like to review [this list](https://www.themuse.com/advice/how-to-answer-the-31-most-common-interview-questions) and practice a few of the questions. 
-    
-The HR phone screen
+- **Practice Soft Skills Questions**
+    - Before every interview, I like to review [this list](https://www.themuse.com/advice/how-to-answer-the-31-most-common-interview-questions) and practice a few of the questions.
+- **Prepare a List of Past Experiences to Talk About**
+    - To help with the previous point this is a good exercise. Write out a list of traits such as "leadership" and "time management" that you think you'll be interviewed on. Then write a few past experiences you think would go along well with each trait.
 
-The technical phone screen
+### Interviewing
 
-The coding challenge
+#### Scheduling Interviews
 
-The follow up
+- **Be Respectful of the Interviewer's Time**
+    - If you need to cancel or reschedule do so at least a day or so before. Emergencies are a special case.
 
-If in need of help, feel free to reach out
-- contact me on Twitter or LinkedIn
+### Time Between Interviews
 
+- **Remember the interviewer has other responsibilities**
+    - While your only task might be to get a job, they're managing all of the other day to day responsibilities and hiring is usually something that happens in addition to those responsibilities.
+- **The squeeky wheel gets the oil**
+    - If you don't hear anything from the company for a week or two, follow up **politely**. If you're wondering why I bolded politely, see the previous bullet point.
 
+#### Phone and Video Screens
+
+- **Prep for the person you're talking With**
+    - If you're talking with an HR person you'll probably be discussing non technical things. If it's an engineer, probably the opposite. Prepare accordingly.
+- **Do a test run beforehand**
+    - Your internet or phone connection should be great.
+    - All required software should be installed and working.
+- **Be professional**
+    - Even though you're not interviewing in person, you should still put your best foot forward. Put on nice clothes, make sure the background where you'll be sitting is clean and free of distraction.
+    - Be in a quiet place.
+ 
+#### Take Home Coding Challenges
+
+- **Practice them Regularly**
+    - There are lots of great websites and books out there that offer coding challenges to solve.
+
+#### In Person
+
+- **Show up a few minutes early**
+    - Any earlier and you might be interrupting whatever the interviewer is working on prior to your interview.
+- **Do not show up late**
+    - Anticipate traffic, delays, being lost, or anything else that might prohibit you from arriving early.
 
 ### Call to Action
 
+If you have questions or thoughts on what I've posted, please reach out to me on [Twitter](https://twitter.com/travis_the_makr), [LinkedIn](https://www.linkedin.com/in/travisbumgarner/) or in the comments below.
