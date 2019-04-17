@@ -2,7 +2,7 @@
     "title": "How to Build a Circuit Board",
     "date": "2019-04-12T12:05:19-05:00",
     "draft": false,
-    "tools": ["foo"],
+    "tools": [],
     "topics": [
         "Electronics"
     ],
