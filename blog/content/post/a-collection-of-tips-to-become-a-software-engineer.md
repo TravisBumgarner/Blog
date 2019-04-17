@@ -1,129 +1,115 @@
 {
     "title": "A Collection of Tips to Become a Software Engineer",
     "date": "2019-04-15T20:52:04-04:00",
-    "draft": true,
+    "draft": false,
     "tools": [],
     "topics": [
-        "Digital Design",
-        "Entrepreneurship",
-        "Electronics",
-        "Mechanical Engineering",
-        "My Process",
-        "Photography",
-        "Random",
-        "Web Development",
-        "Wood Working"
+        "Careers"
     ],
     "project": "interviewing",
-    "description": "Over the years I have been on both sides of the interview process. I have learned a wealth of experience, here is my advise."
+    "description": "Over the years I have been on both sides of the interview process. I have learned a wealth of experience, here is my advice."
 }
 
 <!-- Templates
 
 {{< youtube id >}} 
-{{< figure src="/image/a-collection-of-tips-to-become-a-software-engineer/file.jpg" title="Title" >}}
-
--->
-
-<!-- What are your three yeses? (Readers should nod their head yes to the headline, subheading, and first sentence.)
-
+{{< figure src="/image/a-collection-of-tips-to-become-a-software-engineer/resume.png" title="My old resume" >}}
 
 -->
 
 <!-- Where to Post
-
-
+    reddit cs careers
+    Slack Hack.Diversity
+    Twitter
+    LinkedIn
+    Instagram
  -->
-
- <!-- Keywords
- 
- -- >
-
-<!-- Brainstorm
-
-
- -->
-
 
 ### Introduction
 
-I've reviewed resumes and interviewed candidates. I've helped others with resume reviews and mock interviews. I have spent the last few years transitioning into software engineering. These are a collection of experiences that I hope will help you make your own way into the field. 
-
-I've split the sections up...
+I've reviewed resumes and interviewed candidates. I've helped others with resume reviews and mock interviews. Prior to these experiences, I spent several years transitioning into software engineering. The process of becoming a software engineer is hard. I have provided a collection of advice below that I hope will make the process easier to conquer. 
 
 ### Resume
 
-#### Format & Design
+What makes for a good resume? A pleasing design and solid content.
 
-- **Make it Screenable** 
-    - Ask a friend to imagine they are screening resumes and they have 30 seconds to review a resume and learn as much as possible about a candidate. Give them your resume and see how much they can get from it.
-    - There should be a visual hierarchy on the page. Sections like education, skills, and work experience should be separated. Within a section, such as work experience the company, job title, and period worked should all be easily identifiable.
+Here's my old resume that you can keep in my as you read the following two sections on design and content. *Note: The gray boxes are my contact info I removed.*
+
+{{< figure src="/image/a-collection-of-tips-to-become-a-software-engineer/resume.png" title="My old resume" >}}
+
+#### Design
+
+- **Make it Easily Scannable** 
+    - Recruiters receive *a lot* of resumes. I've heard of statistics like 100 applications for a single position. If a recruiter devoted 5 minutes to each resume, it'd take them almost 8 hours. They unfortunately just don't have that much time to review. Therefore, it is important that your resume is easily scannable.
+    - As an Exercise, set a timer for 30 seconds. Give your friend your resume. Ask them to learn as much about you as possible. When the timer ends ask them what they've learned. This is a good indicator of what a recruiter will take away from your resume.
+    - Your resume must have a visual hierarchy. Sections like education, skills, and work experience should be separated. Within a section, such as work experience, the company, job title, and period worked should all be easily identifiable.
 - **Put some effort into the format** 
-    - Be consistent with styling - if you use a solid circle for a bullet point, use it for every section. If the title of a section is bold and uppercase, make every section bold and uppercase.
+    - Be consistent with styling - if you use a solid black square for a bullet point, use it for every section. If the title of a section is bold and uppercase, make every section bold and uppercase.
     - A good rule I've heard in the past and have stuck to is that a resume should have no more than 4 unique styles for text. Each style includes a combination of uppercase/lowercase, font name, and underline/italics/bold. 
 
 #### Content
 
-- **Keep it to One Page** 
-    - Some people argue that two pages resumes are fine. Others argue that it should be one page. Both groups of people would agree that there is nothing wrong with a one page resume. Keep it to one page, appeal to everybody. 
+- **Keep it to One-Page** 
+    - Some people argue that two pages resumes are fine. Others argue that it should be one-page. Both groups of people would agree that there is nothing wrong with a one-page resume. Keep it to one-page, appeal to everybody. 
 - **Show, Don't Tell**
-    - Instead of listing a skill like "well organized", put some effort into the display of your resume.
+    - Instead of writing "well organized", put some effort into the display of your resume. Instead of writing "attention to detail", make sure your resume has no spelling errors and your formatting is consistent.
 - **Be Prepared to Talk About it** 
     - If it's on your resume, be expected to talk about it.
-    - If you're learning it or know it and are able to talk about it put it on there. Otherwise, take it out.
-- **Be the ideal candidate the employer is looking for**
-    - I used to think that a resume was a summation of all the awesome things I've done in my life. But I was wrong. The employer is looking for a specific kind of skill set to fill a role. Write your resume so that you can best demonstrate how your background makes you the best fit. The only point of a resume is to get yourself an invitation for your first interview.
-- **Make past experience relevant**
-    - Most jobs involve switching industries or moving between different companies. Jargon and technologies that make sense at one job might mean nothing at the next. Place yourself in the interviewer's shoes and adjust your skills so that they understand even if they don't have a background in the company or industry you're coming from.
+    - If you're learning it or know it and are able to talk about it put it on there. Otherwise, take it out. I got a job as a React developer after only having worked with it for only 3 weeks. I had been working on a project to learn it and that impressed the recruiter. On the flipside, I put PHP on my resume but only barely used it, for a few weeks a year prior. I got asked about my PHP experience, stammered, and gave a bad answer. I didn't move forward with that one.
+- **Be the Candidate the Employer Can't do Without**
+    - I used to think that a resume was a summation of all the awesome things I'd done in my life. Trouble is, the employer had to search through all the noise to find the details that would answer the questions "can he do the job?" and "would I like to work with him?". Leave only the experiences that answer these questions.
+- **Make Past Experiences Relevant**
+    - Most jobs involve switching industries or moving between companies. Jargon and technologies that make sense at one job might mean nothing at the next. Place yourself in the interviewer's shoes and adjust your experiences so that they understand even if they don't have a background in the company or industry where you're coming from.
 
 ### Enduring the Job Search
 
-- **Treat everyone with respect**
+- **Treat Everyone with Respect**
     - Be polite.
     - Say please and thank you. 
-- **Don't burn bridges**
+    - I hope this section isn't a revelation for you.
+- **Don't Burn Bridges**
     - Do not ghost.
-    - The world is a lot smaller than you think. Burning a bridge with an interviewer might have no effect now but might catch you two years down the road. 
-- **It's a marathon not a sprint**
+    - The world is a lot smaller than you think. Burning a bridge with an interviewer might have no effect now. Two years from now, when you're applying to your dream job, you might find that old interviewer working there and you not.
+- **It's a Marathon Not a Sprint**
     - Keep to a routine and don't burn yourself out. 
-    - I tried to apply to at least 3 jobs a day Monday to Friday and didn't job search on the weekend. Every Tuesday and Thursday I'd try and connect with at least 1 or 2 connections on LinkedIn. 
-- **Stay positive and don't take it personally**
-    - A wise bit of advise I heard in my job search was "you can't be everything to everyone". You can't connect with everyone out there. The right job is waiting for you.
-    - Budgets run out. interviewers and interviewees have off days. Things happen. 
-- **Use every interview as a learning opportunity**
+    - I tried to apply to about 3 jobs a day Monday to Friday and didn't job search on the weekend. Every Tuesday and Thursday I'd try and connect with at least 1 or 2 connections on LinkedIn. 
+- **Stay Positive and Don't Take it Personally**
+    - A wise bit of advice I heard in my job search was "you can't be everything to everyone". You can't connect with everyone out there.
+    - Budgets run out. interviewers and interviewees have off days. Things happen. Keep your head up and move on.
+- **Use Every Interview as a Learning Opportunity**
     - Every question I didn't know the answer to, I'd make a mental note of and learn it later. 
-    - If you don't get a position, ask politely what you can improve on. Not everyone can or will give feedback but it never hurts to ask. 
+    - If you don't get a position, ask politely what you can improve on. Not everyone can or will give feedback, but it never hurts to ask. 
 
 ### Interview Prep
 
-- **Know the Interviewer**
-    - If you get their name beforehand look them up. Their background will tell you more about what to expect from the interview. 
-- **Prepare questions for the Interviewer about their background and the company**
-    - It shows that you're excited about the prospect of working for the company.
+- **Get to Know the Interviewer**
+    - If you get their name beforehand look them up. Their background will tell you more about what to expect from the interview. Furthermore, you can ask better questions.
+- **Have Questions Prepared**
+    - Few things say "I'm not interested in this job" more than having no questions prepared. 
+    - Worse is asking bad questions. Don't ask things like "when will I get my first raise". You laugh but it happens.
 - **Practice Soft Skills Questions**
     - Before every interview, I like to review [this list](https://www.themuse.com/advice/how-to-answer-the-31-most-common-interview-questions) and practice a few of the questions.
 - **Prepare a List of Past Experiences to Talk About**
-    - To help with the previous point this is a good exercise. Write out a list of traits such as "leadership" and "time management" that you think you'll be interviewed on. Then write a few past experiences you think would go along well with each trait.
+    - Write out a list of traits such as "leadership" and "time management" that you think you'll be interviewed on. Then write a few past experiences you think would be good examples of that trait.
 
 ### Interviewing
 
 #### Scheduling Interviews
 
 - **Be Respectful of the Interviewer's Time**
-    - If you need to cancel or reschedule do so at least a day or so before. Emergencies are a special case.
+    - If you need to cancel or reschedule do so at least a day or so before. Emergencies happen, the interviewer will understand.
 
-### Time Between Interviews
+#### Time Between Interviews
 
-- **Remember the interviewer has other responsibilities**
-    - While your only task might be to get a job, they're managing all of the other day to day responsibilities and hiring is usually something that happens in addition to those responsibilities.
-- **The squeeky wheel gets the oil**
+- **Remember the Interviewer has Other Responsibilities**
+    - While your only task might be to get a job, they interviewer is managing all of the other day to day responsibilities they have. Hiring is something that happens in addition to those responsibilities.
+- **The Squeaky Wheel Gets the Oil**
     - If you don't hear anything from the company for a week or two, follow up **politely**. If you're wondering why I bolded politely, see the previous bullet point.
+
 
 #### Phone and Video Screens
 
-- **Prep for the person you're talking With**
-    - If you're talking with an HR person you'll probably be discussing non technical things. If it's an engineer, probably the opposite. Prepare accordingly.
-- **Do a test run beforehand**
+- **Do a Test Run Beforehand**
     - Your internet or phone connection should be great.
     - All required software should be installed and working.
 - **Be professional**
