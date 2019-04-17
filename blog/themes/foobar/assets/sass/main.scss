@@ -80,7 +80,7 @@ body {
 a { 
     color: color(primary);
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 700;
 
     &:hover {
         border-bottom: $primary-divider;
@@ -178,7 +178,6 @@ main.single {
         font-size: font-sizing(large);
         margin: spacing(xlarge) 0 spacing(large) 0;
 
-        // margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title 
         line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title 
     }
 
@@ -193,7 +192,6 @@ main.single {
         color: color(primary);
         font-family: $font-header;
         font-size: font-sizing(medium);
-        // text-transform: uppercase;
         border-bottom: 1px solid black;
     }
     
@@ -220,8 +218,11 @@ main.single {
     }
 
     ul {
-        // list-style-type: none;
         padding-left: spacing(xlarge);
+    }
+
+    li {
+        padding-bottom: spacing(medium);
     }
 
     time {
@@ -296,9 +297,7 @@ main.list {
 aside.sidebar {
     flex-basis: 240px;
     flex-shrink: 0;
-    // max-width: 240px;
     flex-grow: 1; // Fill up horizontal space after max width on posts is reached
-    // height: 0%; // Stops sidebar from expanding with flex;
     border: $primary-divider;
     box-sizing: border-box;
     margin: 0 spacing(large);
@@ -371,7 +370,6 @@ footer {
 
     section {
         box-sizing: border-box;
-        // margin: spacing(large);
         margin: spacing(large);
     }
 
