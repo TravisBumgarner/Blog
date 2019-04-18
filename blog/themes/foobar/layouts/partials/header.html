@@ -31,12 +31,36 @@
 
 	<!-- Analytics -->
 	{{ template "_internal/google_analytics.html" . }}
+
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+
+
 </head>
 
 <body>
 	<div class="site-wrapper">
 		<!-- CSS is Dumb, or just me. -->
 		<header>
-			<h1><a id="site-title" href="{{ .Site.BaseURL }}"></a></h1>
-			<p>I make, therefore I am. I learn, therefore I teach. I write, therefore I blog.</p>
+			<div class="flex">
+				<div class='left-side'>
+					<h1><a id="site-title" href="{{ .Site.BaseURL }}"></a></h1>
+					<p>I make, therefore I am. I learn, therefore I teach. I write, therefore I blog.</p>
+				</div>
+				<div class='right-side'>
+					<div class='right-side-section'>
+						<a target="_blank" href="https://travisbumgarner.photography"/><span>Photography Portfolio</span></a><br>
+						<a target="_blank" href="https://travisbumgarner.com"/><span>Engineering Portfolio</span></a>
+					</div>
+					<div class='right-side-section'>
+						<a href="https://twitter.com/travis_the_makr" target="_blank"><i class="fab fa-3x fa-twitter"></i></a>
+						<a href="https://instagram.com/travis_the_maker" target="_blank"><i class="fab fa-3x fa-instagram"></i></i></a>
+						<a href="https://www.linkedin.com/in/travisbumgarner/" target="_blank"><i class="fab fa-3x fa-linkedin"></i></a>
+					</div>
+					
+					
+				</div>
+			</div>
+			
 		</header>

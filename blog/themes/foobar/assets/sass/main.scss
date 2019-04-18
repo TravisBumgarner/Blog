@@ -81,6 +81,7 @@ a {
     color: color(primary);
     text-decoration: none;
     font-weight: 700;
+    padding-bottom: 4px;
 
     &:hover {
         border-bottom: $primary-divider;
@@ -99,7 +100,56 @@ header {
     border: $primary-divider;
     box-sizing: border-box;
     margin: spacing(large);
-    padding: spacing(large);
+    padding: spacing(large);    
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: $screen-width-split) {
+            flex-direction: column;
+        }
+        
+    }
+
+    .left-side {
+        width: 70%;
+
+        @media screen and (max-width: $screen-width-split) {
+            width: 100%;
+        }
+    }
+
+    .right-side {
+        text-align: right;
+        box-sizing: border-box;
+
+        .right-side-section {
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+
+        @media screen and (max-width: $screen-width-split) {
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+            margin-top: 10px;
+
+            .right-side-section {
+                width: 50%;
+                margin: 0;
+            }
+
+            .right-side-section:last-child {
+                text-align: right;
+            }
+        }
+    }
+
+    h1 {
+        line-height: 1;
+        margin-bottom: 5px;
+    }
 
     h1 a {
         font-weight: 700;
