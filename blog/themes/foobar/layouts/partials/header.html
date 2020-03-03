@@ -2,6 +2,16 @@
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HP8ZJ0GSCL"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-HP8ZJ0GSCL');
+	</script>
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,9 +38,7 @@
 
 	<!-- Favicon -->
 	<link rel="icon" href="{{ .Site.BaseURL }}/favicon.png" type="image/x-icon" />
-
-	<!-- Analytics -->
-	{{ template "_internal/google_analytics.html" . }}
+	</script>
 
 	<!-- Icons -->
 	<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
