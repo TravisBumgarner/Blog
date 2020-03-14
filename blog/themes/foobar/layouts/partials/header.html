@@ -20,7 +20,7 @@
 	<title>{{ if eq .Title .Site.Title }}{{ .Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 	<meta property="og:locale" content="en_US">
 	<meta property="og:title" content="{{ if eq .Title .Site.Title }}{{ .Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-	<meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}/image/og-banner.png{{ end }}">
+	<!-- <meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}/image/og-banner.png{{ end }}"> -->
 	<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
 	<meta property="og:author" content="{{ if .Authors }}{{ .Authors }}{{ else }}{{ .Site.Params.Author }}{{ end }}">
 	<meta property="og:site_name" content="{{ .Site.Title }}">

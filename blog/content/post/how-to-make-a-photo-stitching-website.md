@@ -1,7 +1,7 @@
 {
     "title": "How to Make a Photo Stitching Website & Avoid Burnout",
     "date": "2020-03-13T16:00:01-04:00",
-    "draft": true,
+    "draft": false,
     "tools": [],
     "topics": [
         "Projects"
@@ -17,47 +17,46 @@ Instagram
 Twitter
  -->
 
- <!-- Keywords
- 
- -->
+[Click here to check out the finished result!](https://stitchit.travisbumgarner.com)
+
 
 ### Background
 
-I once read somewhere that burnout is the continued application of large amounts of energy on projects that ultimately end in failure. In the last year or so I've started and failed many projects, to name a few:
+I once read somewhere that burnout is the continued application of large amounts of energy on projects that ultimately end in failure. In the last year or so I've started and failed many projects. To name a few:
 
-- [Winions](https://github.com/TravisBumgarner/winions) 59 Commits over 1.5 months
+- [Winions](https://github.com/TravisBumgarner/winions) - 59 Commits over 1.5 months
 - [Watchr](https://github.com/TravisBumgarner/watchr) - 60 Commits over 1 month
 - [Make-A-Camera](https://github.com/TravisBumgarner/make-a-camera) - 16 Commits and a fully functioning physical prototype over 6 months
 - [Let's Pair](https://github.com/TravisBumgarner/lets-pair) - 139 Commits with a fully functioning application (in need of user testing and refinement) over 6 months
 
-All of these projects were large energy consumers. I kept starting projects, getting tired of the energy required, and giving up. 
+All of these projects were large energy consumers. I kept starting projects, getting tired of the energy demanded, and giving up. 
 
-I had a graveyard full of half completed projects. My love of side projects was inevitably going to lead me to burnout if I maintained this trend. So I decided to do something about it. No more overly complex projects with no end in site. Instead, I decided to build fun little side projects that would be fun to build and that others might enjoy as well. 
+I had a graveyard full of half completed projects. My love of side projects was inevitably going to lead me to burnout if I maintained this trend. So I decided to do something about it. No more overly complex projects with no end in sight. Instead, I decided to focus on little side projects that would be fun to build and that others might enjoy as well. 
 
 ### Motivation
 
-I came across this lovely little [CSS Cross Stitch](https://codepen.io/oliviale/pen/RwNdeeQ) of the Pokemon Cyndaquil by [Olivia Ng](https://twitter.com/meowlivia_). (Screenshot of the resulting image below)
+I came across this lovely [CSS Cross Stitch](https://codepen.io/oliviale/pen/RwNdeeQ) of the Pokemon Cyndaquil by [Olivia Ng](https://twitter.com/meowlivia_). (Screenshot of the resulting image below)
 
 {{< figure src="/image/how-to-make-a-photo-stitching-website/motivation.png" title="Project Motivation" >}}
 
 ### A little bit more background...
 
-In pursuit of building fun projects, I decided it was time to move hosting and finally learn about working with Google Cloud Platform. I knew nothing about it and recently just finished moving over some of my basic static (HTML/CSS/JS) websites over to it. This project would be my first larger endevor. 
+To make sharing my fun projects with the world - I decided it was time for new hosting. After talking with a devops engineering coworker I decided to go with Google Cloud Platform. I knew almost nothing about it but figured it was time to learn. This project would be my first larger endeavor. 
 
 ### So I dove right in...
 
-I banged my head against the wall, a lot. I tried to keep track of all the resources that I used but in the end gave up. Here is what just one day of my browsing history for "Google Cloud Platform" looks like:
+I banged my head against the wall, a lot. I tried to keep track of all the resources that I used but in the end gave up. Here is what just one day of my browsing history for "Google Cloud Platform" looked like:
 
 {{< figure src="/image/how-to-make-a-photo-stitching-website/somanylearnings.png" title="Lots to Learn" >}}
 
 The above image goes to show that even with several years of experience, I'm still Googling lots of things.
 
-I am super grateful to the developer community and was able to keep track of some of the more influencial/helpful/inspirational pages I found:
+I am super grateful to the developer community and was able to keep track of some of the more influential/helpful/inspirational pages I found:
 
 - [Stack Overflow](https://stackoverflow.com/a/43111221) - A great answer on how to find interesting colors in an image.
 - [PyImageSearch](https://www.pyimagesearch.com/) - A great website on everything computer vision related.
-- [Hosting Flask servers on Firebase from scratch](https://medium.com/firebase-developers/hosting-flask-servers-on-firebase-from-scratch-c97cfb204579) - Everything I needed to get started deploying sites more complicated than static pages to GCP
-- [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - Everything you need to know to get up and running with Flask
+- [Hosting Flask servers on Firebase from scratch](https://medium.com/firebase-developers/hosting-flask-servers-on-firebase-from-scratch-c97cfb204579) - Everything you need to get started deploying sites more complicated than static pages to GCP.
+- [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - Everything you need to know to get up and running with Flask.
 
 ### How It Works - The Architecture
 
@@ -75,7 +74,7 @@ There are three intersting journeys here, denoted by the three circles.
 
 The Flask and Firebase article I mentioned above helped with this first part. 
 
-Cloud Build and Cloud Run are tools that collectively took the code off my machine, created a Docker image with it, and sent it to GCP so that the user could access it. 
+Cloud Build and Cloud Run are tools that collectively took the code off my machine, created a Docker image with it, and sent it to GCP so that users could access the site. 
 
 ##### 2. Accessing the Stitching Tool
 
