@@ -11,5 +11,5 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
    project = "project"
    topics = "topics"
 [params]
-   SiteDescription= "I've been an Engineer, Photographer, Entrepreneur, Maker, Writer, Speaker, Teacher, Open Source Contributor, and jack of all trades. Currently, I live in Boston, MA and work as a Software Engineer. These are my ramblings."
+   SiteDescription= "These are artifacts of my experiences."
    author="Travis Bumgarner"
