@@ -4,7 +4,7 @@
     "draft": false,
     "tools": [],
     "topics": [
-        "Electronics"
+        "Projects"
     ],
     "project": "Painless Prototyping",
     "description": "One Day I decided to learn how to make circuit boards. Several months later, my first PCB arried in the mail. This is how I got there."

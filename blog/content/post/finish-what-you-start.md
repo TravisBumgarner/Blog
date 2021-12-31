@@ -4,18 +4,10 @@
     "draft": false,
     "tools": [],
     "topics": [
-        "Digital Design",
-        "Entrepreneurship",
-        "Electronics",
-        "Mechanical Engineering",
-        "My Process",
-        "Photography",
-        "Random",
-        "Web Development",
-        "Wood Working"
+        "My Process"
     ],
     "project": "",
-    "description": ""
+    "description": "I love starting hobby projects. However, I seem to hate finishing them. Let's figure out how to finish things."
 }
 
 ### Introduction

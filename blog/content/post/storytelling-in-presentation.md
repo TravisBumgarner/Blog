@@ -4,15 +4,8 @@
     "draft": false,
     "tools": [],
     "topics": [
-        "Digital Design",
-        "Entrepreneurship",
-        "Electronics",
-        "Mechanical Engineering",
         "My Process",
-        "Photography",
-        "Random",
-        "Web Development",
-        "Wood Working"
+        "Presentations"
     ],
     "project": "",
     "description": "Ever wanted to improve your ability to convey what's in your head to your audience? This talk is for you!"

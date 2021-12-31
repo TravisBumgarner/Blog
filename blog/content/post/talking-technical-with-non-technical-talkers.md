@@ -4,15 +4,8 @@
     "draft": false,
     "tools": [],
     "topics": [
-        "Digital Design",
-        "Entrepreneurship",
-        "Electronics",
-        "Mechanical Engineering",
         "My Process",
-        "Photography",
-        "Random",
-        "Web Development",
-        "Wood Working"
+        "Presentations"
     ],
     "project": "",
     "description": "This is my first technical talk! I wanted to share with the world what I've learned working with folks from different backgrounds and disciplines."

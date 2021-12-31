@@ -206,7 +206,7 @@ header {
 
 main.single {
   flex-grow: 1;
-  margin: 0 spacing(large) 0 0;
+  margin: 0 spacing(large) 0 spacing(large);
   padding: spacing(large);
   border: $primary-divider;
   border-radius: $primary-rounded;
@@ -314,7 +314,7 @@ main.single {
 }
 
 main.list {
-  margin: 0 spacing(large) 0 0;
+  margin: 0 spacing(large) 0 spacing(large);
   flex-grow: 1;
 
   h2 {
@@ -342,7 +342,7 @@ main.list {
       font-size: 14px;
       a {
         display: inline-block;
-        padding-right: 10px;
+        padding-left: 10px;
       }
     }
   }
@@ -446,7 +446,7 @@ div.paginator {
   border-radius: $primary-rounded;
   background-color: $primary-background-color;
   box-sizing: border-box;
-  margin: spacing(large) spacing(large) 0 0;
+  margin: spacing(large) spacing(large) 0 spacing(large);
   padding: spacing(large);
 
   ul {
