@@ -204,6 +204,7 @@ header {
 }
 
 main.single {
+  flex-grow: 1;
   margin: 0 spacing(large) 0 0;
   padding: spacing(large);
   border: $primary-divider;
@@ -212,7 +213,7 @@ main.single {
   box-sizing: border-box;
 
   section {
-    margin: spacing(medium) 0;
+    margin-bottom: spacing(large);
   }
 
   blockquote {

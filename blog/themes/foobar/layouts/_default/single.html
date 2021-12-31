@@ -11,11 +11,11 @@
 			<section>
 				<ul id="tags">
 					{{ range .Params.tags }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+					<li><a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
 					{{ end }}
 				</ul>
 			</section>
-			<section>
+			<!-- <section>
 				{{ $all_posts := where .Site.Pages ".Type" "post" }}
 				{{ $other_posts := where $all_posts ".Title" "<>" .Title }}
 				{{ $related_posts := where $other_posts "Params.project" .Params.project }}
@@ -27,7 +27,7 @@
 					{{ end }}
 				</ul>
 				{{ end }}
-			</section>
+			</section> -->
 			<section>
 				<h2 class="comments">Comments</h2>
 				{{ template "_internal/disqus.html" . }}
