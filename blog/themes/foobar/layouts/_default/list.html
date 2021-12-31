@@ -4,10 +4,10 @@
 	<main class="list">
 		{{ $paginator := .Paginate (where .Pages "Type" "post") }}
 		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
+		{{ partial "summary.html" . }}
 		{{ end }}
 		{{ if gt (len $paginator.Pages) 10 }}
-			{{ partial "pagination.html" . }}
+		{{ partial "pagination.html" . }}
 		{{ end }}
 	</main>
 </div>

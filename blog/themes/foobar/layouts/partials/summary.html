@@ -1,17 +1,18 @@
-<article>
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<article class='summary'>
+    <a href="{{ .Permalink }}">
+        <h2>{{ .Title }}</h2>
+    </a>
     <div>
-        {{ .Params.description }}
-        {{ if .Params.tools }}
-        <p>
-            Built With:
-            {{ range .Params.tools }}
-            {{ . }}
-            {{ end }}
-        </p>
-        {{ end }}
-        {{ if .Truncated }}
-        <div><a class="read-more" href="{{ .Permalink }}">Read More</a></div>
-        {{ end }}
+        <p>{{ .Params.description }} <a href="{{ .Permalink }}">Read More</a></p>
+        <div class="metadata">
+            <p>
+                <strong>Published: </strong> {{ .Date.Format "Monday, January 2, 2006" }}<br>
+                <strong>Topics:</strong>
+                {{ range .Params.topics }}
+                <a href="/topics/{{ lower . }}/">{{ . }}</a>
+                {{ end }}
+            </p>
+        </div>
     </div>
+
 </article>
