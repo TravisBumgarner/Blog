@@ -8,7 +8,7 @@ then
     filename=$( echo "$filename" | tr ' ' '-')
 
     mkdir "./static/image/$filename"
-    /usr/local/bin/hugo new "post/$filename.md"
+    /opt/homebrew/bin/hugo new "post/$filename.md"
 else
       echo "Add quotes around article title"
 fi
