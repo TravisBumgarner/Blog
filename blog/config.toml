@@ -4,7 +4,7 @@ title = "Travis Bumgarner"
 theme="foobar"
 disqusShortname="travisbumgarner"
 googleAnalytics="UA-131349056-1"
-paginate=5
+paginate=10
 ignoreErrors = ["error-missing-instagram-accesstoken"]
 [taxonomies]
    tools = "tools"

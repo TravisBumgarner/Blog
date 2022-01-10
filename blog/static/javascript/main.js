@@ -24,10 +24,14 @@
 })();
 
 (function () {
-  const links = document.getElementById("sidebar").getElementsByTagName("a");
+  const links = document
+    .getElementById("writing-nav")
+    .getElementsByTagName("a");
   const currentUrl = location.href;
+  console.log(links);
   for (const link of links) {
     if (link.href === currentUrl) {
+      console.log("adding active");
       link.classList.add("active");
     }
   }

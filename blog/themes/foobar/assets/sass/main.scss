@@ -1,10 +1,11 @@
 $fibonacci: 1.618;
-$gutter: 16px;
+$gutter: 18px;
 $primary-color: black;
 $secondary-color: #979797;
 $font-global: "Montserrat", sans-serif;
 $font-code: "Roboto Mono", monospace;
 $divider: 1px solid $secondary-color;
+$figure-spacing: calc(3 * #{$gutter}) 0;
 
 body {
   font-size: 18px;
@@ -12,6 +13,13 @@ body {
   max-width: 1200px;
   margin: $gutter auto;
   padding: $gutter;
+
+  a {
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: $divider;
+    }
+  }
 
   p,
   li {
@@ -30,37 +38,24 @@ body {
   margin: calc(2 * #{$gutter}) 0;
 }
 
-.content-wrapper {
+.paginator {
+  clear: both;
   display: flex;
-
-  > :first-child {
-  }
-
-  > :last-child {
-  }
-}
-
-aside.sidebar {
-  padding: 0 calc(1 * #{$gutter});
-
-  h2 {
-    font-size: calc(1em * #{$fibonacci} * 1);
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-
-    a {
-      border-bottom: 1px solid transparent;
-      &:hover {
-        border-bottom: $divider;
-      }
-    }
-  }
+  justify-content: center;
+  border-top: $divider;
+  border-bottom: $divider;
 
   ul {
+    display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
+
+    li {
+      margin: $gutter;
+
+      &.active {
+        font-weight: 900;
+      }
+    }
   }
 }
 
@@ -79,29 +74,54 @@ header {
 }
 
 nav {
-  align-items: center;
-  display: flex;
   border-top: $divider;
   border-bottom: $divider;
   padding: 0 calc(1 * #{$gutter});
   margin: calc(#{$gutter} * 2) 0;
-  p {
-    font-weight: 400;
-  }
 
   ul {
     list-style: none;
     display: flex;
     margin: $gutter 0;
     padding: 0;
+    position: relative;
 
     li {
-      margin-left: calc(2 * #{$gutter});
+      display: block;
 
-      a {
-        border-bottom: 1px solid transparent;
-        &:hover {
-          border-bottom: $divider;
+      margin-right: calc(2 * #{$gutter});
+      height: 30px;
+
+      &:hover > ul,
+      & ul:hover {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      ul {
+        background-color: white;
+        border: $divider;
+        padding: $gutter;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        transition: all 0.5s ease;
+        margin-top: 0;
+        left: 0;
+        display: none;
+
+        li {
+          clear: both;
+          width: 100%;
+
+          a.active {
+            font-weight: 900;
+          }
         }
       }
     }
@@ -110,9 +130,11 @@ nav {
 
 main.list {
   article.summary {
+    // width: 50%;
+    // float: left;
     border-left: $divider;
     margin-bottom: calc(2 * #{$gutter});
-    padding: 0 calc(2 * #{$gutter}) 0 calc(3 * #{$gutter});
+    padding: 0 $gutter;
     box-sizing: border-box;
 
     h2 {
@@ -120,13 +142,6 @@ main.list {
       font-weight: 900;
       margin: 0;
       padding: 0;
-
-      a {
-        border-bottom: 1px solid transparent;
-        &:hover {
-          border-bottom: $divider;
-        }
-      }
     }
 
     .topic {
@@ -144,15 +159,6 @@ main.list {
 
       strong {
         font-weight: 400;
-      }
-
-      a {
-        border-bottom: 1px solid transparent;
-        font-weight: 400;
-
-        &:hover {
-          border-bottom: $divider;
-        }
       }
     }
   }
@@ -206,7 +212,11 @@ main.single {
   }
 
   figure {
-    margin: 0;
+    margin: $figure-spacing;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
     figcaption {
       text-align: center;
       font-size: 0.9em;
@@ -214,10 +224,21 @@ main.single {
   }
 
   img {
-    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
   }
 
   code {
+    position: relative;
+    border: $divider;
+    border-radius: $gutter;
+    font-family: $font-code;
+    font-weight: 300;
+    padding: calc(6 * #{$gutter}) calc(2 * #{$gutter});
+    display: block;
+    box-sizing: border-box;
+    margin: $figure-spacing;
+
     &::before,
     &::after {
       color: $secondary-color;
@@ -238,14 +259,39 @@ main.single {
       bottom: $gutter;
       right: $gutter;
     }
+  }
 
+  blockquote {
+    margin: $figure-spacing;
     position: relative;
     border: $divider;
     border-radius: $gutter;
     font-family: $font-code;
     font-weight: 300;
-    padding: calc(6 * #{$gutter}) calc(1 * #{$gutter});
+    padding: calc(5 * #{$gutter}) calc(2 * #{$gutter});
     display: block;
     box-sizing: border-box;
+
+    &::before,
+    &::after {
+      color: $secondary-color;
+      font-size: calc(1em * #{$fibonacci} * 5);
+      position: absolute;
+      font-family: $font-global;
+      font-weight: 100;
+      line-height: 0;
+    }
+
+    &::before {
+      content: "‹";
+      top: calc(2 * #{$gutter});
+      left: $gutter;
+    }
+
+    &::after {
+      content: "›";
+      bottom: calc(4 * #{$gutter});
+      right: $gutter;
+    }
   }
 }
