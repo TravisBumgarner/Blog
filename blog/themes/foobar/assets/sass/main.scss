@@ -6,13 +6,20 @@ $font-global: "Montserrat", sans-serif;
 $font-code: "Roboto Mono", monospace;
 $divider: 1px solid $secondary-color;
 $figure-spacing: calc(3 * #{$gutter}) 0;
+$phone-breakboint: 800px;
 
 body {
+  width: 100vw;
+  box-sizing: border-box;
   font-size: 18px;
   font-family: $font-global;
   max-width: 1200px;
-  margin: $gutter auto;
+  margin: 0 auto;
   padding: $gutter;
+
+  @media only screen and (max-width: $phone-breakboint) {
+    padding: 0;
+  }
 
   a {
     border-bottom: 1px solid transparent;
@@ -23,7 +30,7 @@ body {
 
   p,
   li {
-    line-height: calc(1em * #{$fibonacci});
+    line-height: calc(1rem * #{$fibonacci});
     font-weight: 300;
   }
 
@@ -61,15 +68,23 @@ body {
 
 header {
   h1 {
-    font-size: calc(1em * #{$fibonacci} * 2);
+    font-size: calc(1rem * #{$fibonacci} * 2);
     font-weight: 900;
     margin: $gutter;
+
+    @media only screen and (max-width: $phone-breakboint) {
+      font-size: calc(1rem * #{$fibonacci} * 1.2);
+    }
   }
 
   p {
-    font-size: calc(1em * #{$fibonacci} * 1);
+    font-size: calc(1rem * #{$fibonacci} * 1);
     font-weight: 100;
     margin: $gutter;
+
+    @media only screen and (max-width: $phone-breakboint) {
+      font-size: calc(1rem * #{$fibonacci} * 0.8);
+    }
   }
 }
 
@@ -78,6 +93,20 @@ nav {
   border-bottom: $divider;
   padding: 0 calc(1 * #{$gutter});
   margin: calc(#{$gutter} * 2) 0;
+
+  #mobile-nav {
+    display: none;
+  }
+
+  @media only screen and (max-width: $phone-breakboint) {
+    .desktop-nav-item {
+      display: none;
+    }
+
+    #mobile-nav {
+      display: initial;
+    }
+  }
 
   ul {
     list-style: none;
@@ -112,7 +141,6 @@ nav {
         position: absolute;
         transition: all 0.5s ease;
         margin-top: 0;
-        left: 0;
         display: none;
 
         li {
@@ -132,13 +160,13 @@ main.list {
   article.summary {
     // width: 50%;
     // float: left;
-    border-left: $divider;
+    // border-left: $divider;
     margin-bottom: calc(2 * #{$gutter});
     padding: 0 $gutter;
     box-sizing: border-box;
 
     h2 {
-      font-size: calc(1em * #{$fibonacci} * 1);
+      font-size: calc(1rem * #{$fibonacci} * 1);
       font-weight: 900;
       margin: 0;
       padding: 0;
@@ -170,35 +198,47 @@ main.single {
   width: 100%;
 
   h2 {
-    font-size: calc(1em * #{$fibonacci} * 3);
+    font-size: calc(1rem * #{$fibonacci} * 3);
     font-weight: 900;
     margin: 0 0 $gutter 0;
     padding: 0;
+
+    @media only screen and (max-width: $phone-breakboint) {
+      font-size: calc(1rem * #{$fibonacci} * 1.2);
+    }
   }
 
   h3 {
-    font-size: calc(1em * #{$fibonacci} * 2);
+    font-size: calc(1rem * #{$fibonacci} * 2);
     font-weight: 900;
     margin: calc(#{gutter} * 4) 0 calc(#{gutter} * 2) 0;
     padding: 0;
+
+    @media only screen and (max-width: $phone-breakboint) {
+      font-size: calc(1rem * #{$fibonacci} * 1.2);
+    }
   }
 
   h4 {
-    font-size: calc(1em * #{$fibonacci} * 1);
+    font-size: calc(1rem * #{$fibonacci} * 1);
     font-weight: 400;
     margin: calc(#{gutter} * 4) 0 calc(#{gutter} * 2) 0;
     padding: 0;
+
+    @media only screen and (max-width: $phone-breakboint) {
+      font-size: calc(1rem * #{$fibonacci} * 1);
+    }
   }
 
   p {
     font-weight: 300;
-    max-width: 70em;
+    max-width: 70rem;
   }
 
   time,
   p.topics {
     font-weight: 100;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     margin: 0;
 
     .topic {
@@ -214,12 +254,12 @@ main.single {
   figure {
     margin: $figure-spacing;
     display: flex;
-    align-items: center;
+    align-itrems: center;
     flex-direction: column;
 
     figcaption {
       text-align: center;
-      font-size: 0.9em;
+      font-size: 0.9rem;
     }
   }
 
@@ -238,11 +278,12 @@ main.single {
     display: block;
     box-sizing: border-box;
     margin: $figure-spacing;
+    overflow-x: scroll;
 
     &::before,
     &::after {
       color: $secondary-color;
-      font-size: calc(1em * #{$fibonacci} * 2);
+      font-size: calc(1rem * #{$fibonacci} * 2);
       position: absolute;
       font-family: $font-global;
       font-weight: 100;
@@ -275,7 +316,7 @@ main.single {
     &::before,
     &::after {
       color: $secondary-color;
-      font-size: calc(1em * #{$fibonacci} * 5);
+      font-size: calc(1rem * #{$fibonacci} * 5);
       position: absolute;
       font-family: $font-global;
       font-weight: 100;
