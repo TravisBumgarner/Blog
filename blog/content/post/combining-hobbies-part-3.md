@@ -20,17 +20,17 @@ Some lessons learned:
 * Perfboards suck, go with stripboards. But then, perfboards suck, make a PCB. That'll be one of my next steps in this whole learning electronics journey.
 * Do not solder under low light or for several hours at once. Also, like they say in carpentry to measure twice and cut once, place your pins/wires/components twice and solder once.
 
-{{< figure src="/image/combining-hobbies-part-3/arducam3-1-1.jpg" title="Saturday Night Soldering" >}}
+{{< figure src="/image/combining-hobbies-part-3/arducam3-1-1.jpg" caption="Saturday Night Soldering" >}}
 
-{{< figure src="/image/combining-hobbies-part-3/arducam3-1-2.jpg" title="Sunday Morning Soldering" >}}
+{{< figure src="/image/combining-hobbies-part-3/arducam3-1-2.jpg" caption="Sunday Morning Soldering" >}}
 
-{{< figure src="/image/combining-hobbies-part-3/arducam3-1-3.jpg" title="Finished Bottom Shot" >}}
+{{< figure src="/image/combining-hobbies-part-3/arducam3-1-3.jpg" caption="Finished Bottom Shot" >}}
 
-{{< figure src="/image/combining-hobbies-part-3/arducam3-1-4.jpg" title="Finished Top Shot" >}}
+{{< figure src="/image/combining-hobbies-part-3/arducam3-1-4.jpg" caption="Finished Top Shot" >}}
 
 Next step was to consider the housing. I have access to a laser cutter and CNC machine but for the time being, decided on a very rudimentary housing with some screws, nuts, and wood. I just purchased a 3D printer so I might revisit case design at a future date. For now this is where the project will take a pause since I already have an idea for a version 2 of this whole project.
 
-{{< figure src="/image/combining-hobbies-part-3/arducam3-1-5.jpg" title="Finished Project!" >}}
+{{< figure src="/image/combining-hobbies-part-3/arducam3-1-5.jpg" caption="Finished Project!" >}}
 
 Time to head out and shoot some cooler pictures.
 

@@ -1,18 +1,16 @@
 <article class='summary'>
-    <a href="{{ .Permalink }}">
-        <h2>{{ .Title }}</h2>
-    </a>
-    <div>
-        <p>{{ .Params.description }} <a href="{{ .Permalink }}">Read More</a></p>
-        <div class="metadata">
-            <p>
-                <strong>Published: </strong> {{ .Date.Format "Monday, January 2, 2006" }}<br>
-                <strong>Topics:</strong>
-                {{ range .Params.topics }}
-                <a href="/topics/{{ lower . }}/">{{ . }}</a>
-                {{ end }}
-            </p>
-        </div>
-    </div>
+    <h2>
+        <a href="{{ .Permalink }}">
+            {{ .Title }}
+        </a>
+    </h2>
+    <p>
+        <strong>Summary: </strong>{{ .Params.description }} <a href="{{ .Permalink }}">Read More</a><br>
+        <strong>Published: </strong> {{ .Date.Format "Monday, January 2, 2006" }}<br>
+        <strong>Topics: </strong>
+        {{ range .Params.topics }}
+        <a class="topic" href="/topics/{{ lower . }}/">{{ . }}</a>
+        {{ end }}
+    </p>
 
 </article>

@@ -26,7 +26,7 @@ Once the camera arrived, I rewrote the code to include the ArduCam library. This
 
 With a working camera, it was time for tests. I kept having partial successes leaving my camera running and taking pictures. However, 1 in every 15 or so images wouldn't save properly and the camera wouldn't always continually run. After several hours of troubleshooting issues, I realized that the SD card had reached its end and since I only had one, I've had to take a break while I wait for a new card. I was able to run a successful test of taking pictures with the camera, exporting them to the computer, and modifying them with the Python script I wrote.
 
-{{< figure src="/image/combining-hobbies-part-2/finalImage0-1.png" title="Sample Output" >}}
+{{< figure src="/image/combining-hobbies-part-2/finalImage0-1.png" caption="Sample Output" >}}
 
 It's not the most beautiful view but you can see the passage of time in this stitched image. If you look at the wood fence near the car, towards the left side is when the sun wasn't out but as you move towards the right, the fence gets brighter. That's where the sun came out for a few minutes.
 

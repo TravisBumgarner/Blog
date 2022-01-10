@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
+{{ partial "navigation.html" . }}
 <div class="content-wrapper">
-	<!-- {{ partial "sidebar.html" . }} -->
+	{{ partial "sidebar.html" . }}
 	<main class="single">
 		<article>
 			<h2 class="title">{{ .Title }}</h2>
-			<time>{{ .Date.Format "Monday, January 2, 2006" }}</time>
 			<section>
 				{{ .Content }}
 			</section>
@@ -15,22 +15,15 @@
 					{{ end }}
 				</ul>
 			</section>
-			<!-- <section>
-				{{ $all_posts := where .Site.Pages ".Type" "post" }}
-				{{ $other_posts := where $all_posts ".Title" "<>" .Title }}
-				{{ $related_posts := where $other_posts "Params.project" .Params.project }}
-				{{ if $related_posts }}
-				<h2>More Posts Related to this</h2>
-				<ul>
-					{{ range sort $related_posts ".Params.date" }}
-					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-					{{ end }}
-				</ul>
+			<time>{{ .Date.Format "Monday, January 2, 2006" }}</time>
+			<p class="topics">Topics: {{ range .Params.topics }}
+				<a class="topic" href="/topics/{{ lower . }}/">{{ . }}</a>
 				{{ end }}
-			</section> -->
+			</p>
+			<div class="divider"></div>
 			<section>
-				<h2 class="comments">Comments</h2>
-				{{ template "_internal/disqus.html" . }}
+				<h3 class="comments">Comments</h2>
+					{{ template "_internal/disqus.html" . }}
 			</section>
 		</article>
 	</main>

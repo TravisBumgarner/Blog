@@ -13,7 +13,7 @@
 <!-- Templates
 
 {{< youtube id >}} 
-{{< figure src="/image/a-collection-of-tips-to-become-a-software-engineer/resume.png" title="My old resume" >}}
+{{< figure src="/image/a-collection-of-tips-to-become-a-software-engineer/resume.png" caption="My old resume" >}}
 
 -->
 
@@ -35,7 +35,7 @@ What makes for a good resume? A pleasing design and solid content.
 
 Here's my old resume that you can keep in my as you read the following two sections on design and content. *Note: The gray boxes are my contact info I removed.*
 
-{{< figure src="/image/a-collection-of-tips-to-become-a-software-engineer/resume.png" title="My old resume" >}}
+{{< figure src="/image/a-collection-of-tips-to-become-a-software-engineer/resume.png" caption="My old resume" >}}
 
 #### Design
 

@@ -1,499 +1,251 @@
-/* Reset */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-p,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-/* End Reset */
-
-@function color($color-name) {
-  $colors: (
-    primary: #09113a,
-    secondary: white,
-    highlight01: #f1f1f1,
-    highlight02: #a7a7a7,
-  );
-
-  @return map-get($colors, $color-name);
-}
-
-@function font-sizing($sizing-name) {
-  $sizings: (
-    xsmall: 1rem,
-    small: 1.5rem,
-    medium: 1.9rem,
-    large: 2.1rem,
-  );
-
-  @return map-get($sizings, $sizing-name);
-}
-
-/* Fonts */
-/* Put Downloaded Fonts here */
-$nanum-gothic-coding: "Nanum Gothic Coding", monospace;
-$montserrat: "Montserrat", sans-serif;
-
-/* Put Fonts for File here */
-$font-global: $montserrat;
-$font-header: $nanum-gothic-coding;
-$font-code-snippet: $nanum-gothic-coding;
-/* End Fonts */
-
-/* Spacing & Dividing */
-@function spacing($spacing-name) {
-  $spacings: (
-    small: 0.25em,
-    medium: 0.5em,
-    large: 1.5em,
-  );
-
-  @return map-get($spacings, $spacing-name);
-}
-$screen-width-split: 600px;
-$primary-divider: 2px solid color(primary);
-$primary-rounded: 5px;
-$primary-divider-hover: 2px solid color(highlight01);
-$primary-background-color: white;
-
-/* End Spacing & Dividing */
+$fibonacci: 1.618;
+$gutter: 16px;
+$primary-color: black;
+$secondary-color: #979797;
+$font-global: "Montserrat", sans-serif;
+$font-code: "Roboto Mono", monospace;
+$divider: 1px solid $secondary-color;
 
 body {
-  background-color: #95a2b5;
-  color: color(primary);
-  font-family: $font-global;
-  font-weight: 300;
   font-size: 18px;
-  line-height: 1.5625; // 25 / 16
-  transition: 0.2s font, 0.2s color;
-  @media screen and (max-width: $screen-width-split) {
-    font-size: 14px;
+  font-family: $font-global;
+  max-width: 1200px;
+  margin: $gutter auto;
+  padding: $gutter;
+
+  p,
+  li {
+    line-height: calc(1em * #{$fibonacci});
+    font-weight: 300;
   }
-}
 
-.site-wrapper {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-a {
-  color: color(primary);
-  font-weight: 400;
-  padding-bottom: 4px;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-h1 a,
-h2 a {
-  text-decoration: none;
-
-  &:hover {
+  a {
+    color: $primary-color;
     text-decoration: none;
   }
 }
 
-code {
-  font-family: $font-code-snippet;
-  padding: 10px;
-  width: 100%;
-  display: block;
-  box-sizing: border-box;
-  background-color: #95a2b5;
-}
-
-header {
-  border: $primary-divider;
-  border-radius: $primary-rounded;
-  background-color: $primary-background-color;
-  box-sizing: border-box;
-  margin: spacing(large);
-  padding: spacing(large);
-
-  .flex {
-    display: flex;
-    justify-content: space-between;
-
-    @media screen and (max-width: $screen-width-split) {
-      flex-direction: column;
-    }
-  }
-
-  .left-side {
-    width: 70%;
-
-    @media screen and (max-width: $screen-width-split) {
-      width: 100%;
-    }
-  }
-
-  .right-side {
-    text-align: right;
-    box-sizing: border-box;
-
-    .right-side-section {
-      margin-left: 5px;
-      margin-bottom: 5px;
-    }
-
-    @media screen and (max-width: $screen-width-split) {
-      display: flex;
-      justify-content: space-between;
-      text-align: left;
-      margin-top: 10px;
-
-      .right-side-section {
-        width: 50%;
-        margin: 0;
-      }
-
-      .right-side-section:last-child {
-        text-align: right;
-      }
-    }
-  }
-
-  h1 {
-    line-height: 1;
-    margin-bottom: 5px;
-  }
-
-  h1 a {
-    font-weight: 700;
-    color: color(primary);
-    font-family: $font-header;
-    font-size: font-sizing(xlarge);
-    margin: 0;
-  }
-
-  p {
-    margin: 0;
-  }
-
-  @media screen and (max-width: $screen-width-split) {
-    margin: spacing(small);
-    padding: spacing(small);
-
-    h1 {
-      font-size: font-sizing(large);
-    }
-
-    p {
-      margin: spacing(small);
-      padding: spacing(small);
-    }
-  }
+.divider {
+  border-bottom: $divider;
+  margin: calc(2 * #{$gutter}) 0;
 }
 
 .content-wrapper {
   display: flex;
 
-  @media screen and (max-width: $screen-width-split) {
-    flex-direction: column;
+  > :first-child {
+  }
+
+  > :last-child {
   }
 }
 
-main.single {
-  flex-grow: 1;
-  margin: 0 spacing(large) 0 spacing(large);
-  padding: spacing(large);
-  border: $primary-divider;
-  border-radius: $primary-rounded;
-  background-color: $primary-background-color;
-  box-sizing: border-box;
-
-  section {
-    margin-bottom: spacing(large);
-  }
-
-  blockquote {
-    background: color(highlight01);
-    border-left: 10px solid color(highlight02);
-    margin: 0;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-  }
-  blockquote:before {
-    color: color(highlight02);
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-  }
-
-  blockquote:after {
-    color: color(highlight02);
-    content: close-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-  }
+aside.sidebar {
+  padding: 0 calc(1 * #{$gutter});
 
   h2 {
-    color: color(primary);
-    font-family: $font-header;
-    font-size: font-sizing(large);
-
-    line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title
-  }
-
-  h2.title {
-    margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title
-  }
-
-  h3 {
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: spacing(large) 0 spacing(medium) 0;
-    color: color(primary);
-    font-family: $font-header;
-    font-size: font-sizing(medium);
-    border-bottom: 1px solid black;
-  }
-
-  h4 {
-    margin: spacing(large) 0 spacing(medium) 0;
-    font-weight: 700;
-    color: color(primary);
-    font-family: $font-header;
-    font-size: font-sizing(small);
-  }
-
-  figure h4 {
-    font-size: font-sizing(xsmall);
-    text-align: center;
-    margin: 0;
-  }
-
-  img {
-    max-width: 100%;
-    padding: 10px 0;
-    box-sizing: border-box;
-    display: block;
-    margin: 0 auto;
-  }
-
-  ul {
-    padding-left: spacing(large);
-  }
-
-  li {
-    padding-bottom: spacing(medium);
-  }
-
-  time {
-    font-size: font-sizing(xsmall);
+    font-size: calc(1em * #{$fibonacci} * 1);
     font-weight: 400;
-  }
+    margin: 0;
+    padding: 0;
 
-  p {
-    margin: spacing(large) 0;
-  }
-
-  iframe.instagram-media {
-    margin: 0px auto !important;
-  }
-
-  @media screen and (max-width: $screen-width-split) {
-    margin: spacing(small);
-    padding: spacing(small);
-  }
-}
-
-main.list {
-  margin: 0 spacing(large) 0 spacing(large);
-  flex-grow: 1;
-
-  h2 {
-    color: color(primary);
-    font-family: $font-header;
-    font-size: font-sizing(medium);
-    margin: 0 0 spacing(medium) 0;
-    line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title
-  }
-
-  h2 a {
-    font-weight: 700;
-  }
-
-  article.summary {
-    p {
-      margin: 10px 0;
-    }
-
-    strong {
-      font-weight: 400;
-    }
-
-    .metadata {
-      font-size: 14px;
-      a {
-        display: inline-block;
-        padding-left: 10px;
+    a {
+      border-bottom: 1px solid transparent;
+      &:hover {
+        border-bottom: $divider;
       }
     }
   }
 
-  article {
-    margin: spacing(large) 0;
-    border: $primary-divider;
-    border-radius: $primary-rounded;
-    background-color: $primary-background-color;
-    background-color: $primary-background-color;
-    background-color: $primary-background-color;
-    box-sizing: border-box;
-    padding: spacing(large);
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  article:first-child {
-    margin-top: 0; // Vertical Align: First post in list, sidebar item, blog title
-  }
-
-  @media screen and (max-width: $screen-width-split) {
+  ul {
+    list-style: none;
     margin: 0;
-
-    h2 {
-      margin: spacing(small) 0;
-    }
-
-    article {
-      margin: spacing(small);
-      padding: spacing(medium);
-    }
-
-    article:first-child {
-      margin-top: spacing(small);
-    }
+    padding: 0;
   }
 }
 
-.main-wrapper {
-  flex-grow: 1;
-}
-
-aside.sidebar {
-  flex-basis: 240px;
-  flex-shrink: 0;
-  flex-grow: 0; // Fill up horizontal space after max width on posts is reached
-  border: $primary-divider;
-  border-radius: $primary-rounded;
-  background-color: $primary-background-color;
-  box-sizing: border-box;
-  margin: 0 spacing(large);
-
-  a.active {
-    font-weight: 700;
+header {
+  h1 {
+    font-size: calc(1em * #{$fibonacci} * 2);
+    font-weight: 900;
+    margin: $gutter;
   }
 
-  a {
+  p {
+    font-size: calc(1em * #{$fibonacci} * 1);
+    font-weight: 100;
+    margin: $gutter;
+  }
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  border-top: $divider;
+  border-bottom: $divider;
+  padding: 0 calc(1 * #{$gutter});
+  margin: calc(#{$gutter} * 2) 0;
+  p {
     font-weight: 400;
   }
 
   ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  li {
-    text-transform: capitalize;
-  }
-
-  h3 {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: $font-header;
-    margin: 0 0 spacing(medium) 0;
-    line-height: 1em; // Vertical Align: First post in list, sidebar item, blog title
-  }
-
-  section {
-    box-sizing: border-box;
-    margin: spacing(large);
-  }
-
-  @media screen and (max-width: $screen-width-split) {
-    margin: spacing(medium) spacing(small);
+    list-style: none;
     display: flex;
-    flex-basis: auto;
-    max-width: 100%;
+    margin: $gutter 0;
+    padding: 0;
 
-    section {
-      margin: spacing(small);
-      padding: spacing(small);
+    li {
+      margin-left: calc(2 * #{$gutter});
+
+      a {
+        border-bottom: 1px solid transparent;
+        &:hover {
+          border-bottom: $divider;
+        }
+      }
     }
   }
 }
 
-div.paginator {
-  border: $primary-divider;
-  border-radius: $primary-rounded;
-  background-color: $primary-background-color;
-  box-sizing: border-box;
-  margin: spacing(large) spacing(large) 0 spacing(large);
-  padding: spacing(large);
+main.list {
+  article.summary {
+    border-left: $divider;
+    margin-bottom: calc(2 * #{$gutter});
+    padding: 0 calc(2 * #{$gutter}) 0 calc(3 * #{$gutter});
+    box-sizing: border-box;
 
-  ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-  }
+    h2 {
+      font-size: calc(1em * #{$fibonacci} * 1);
+      font-weight: 900;
+      margin: 0;
+      padding: 0;
 
-  li {
-    padding: 0 10px;
+      a {
+        border-bottom: 1px solid transparent;
+        &:hover {
+          border-bottom: $divider;
+        }
+      }
+    }
+
+    .topic {
+      &::after {
+        content: ", ";
+      }
+      &:last-of-type:after {
+        content: "";
+      }
+    }
+
+    p {
+      font-weight: 100;
+      text-align: justify;
+
+      strong {
+        font-weight: 400;
+      }
+
+      a {
+        border-bottom: 1px solid transparent;
+        font-weight: 400;
+
+        &:hover {
+          border-bottom: $divider;
+        }
+      }
+    }
   }
 }
 
-div.pagination {
-  border: $primary-divider;
-  border-radius: $primary-rounded;
-  background-color: $primary-background-color;
+main.single {
   box-sizing: border-box;
-  margin: spacing(large) 0 0 0;
-  padding: spacing(large);
+  padding: 0 calc(1 * #{$gutter});
+  width: 100%;
 
-  @media screen and (max-width: $screen-width-split) {
-    margin: spacing(small) 0 0 0;
-    padding: spacing(medium);
+  h2 {
+    font-size: calc(1em * #{$fibonacci} * 3);
+    font-weight: 900;
+    margin: 0 0 $gutter 0;
+    padding: 0;
   }
-}
-
-footer {
-  border: $primary-divider;
-  border-radius: $primary-rounded;
-  background-color: $primary-background-color;
-  box-sizing: border-box;
-  margin: spacing(large);
 
   h3 {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: $font-header;
+    font-size: calc(1em * #{$fibonacci} * 2);
+    font-weight: 900;
+    margin: calc(#{gutter} * 4) 0 calc(#{gutter} * 2) 0;
+    padding: 0;
   }
 
-  section {
+  h4 {
+    font-size: calc(1em * #{$fibonacci} * 1);
+    font-weight: 400;
+    margin: calc(#{gutter} * 4) 0 calc(#{gutter} * 2) 0;
+    padding: 0;
+  }
+
+  p {
+    font-weight: 300;
+    max-width: 70em;
+  }
+
+  time,
+  p.topics {
+    font-weight: 100;
+    font-size: 0.9em;
+    margin: 0;
+
+    .topic {
+      &::after {
+        content: ", ";
+      }
+      &:last-of-type:after {
+        content: "";
+      }
+    }
+  }
+
+  figure {
+    margin: 0;
+    figcaption {
+      text-align: center;
+      font-size: 0.9em;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  code {
+    &::before,
+    &::after {
+      color: $secondary-color;
+      font-size: calc(1em * #{$fibonacci} * 2);
+      position: absolute;
+      font-family: $font-global;
+      font-weight: 100;
+    }
+
+    &::before {
+      content: "<code>";
+      top: $gutter;
+      left: $gutter;
+    }
+
+    &::after {
+      content: "</code>";
+      bottom: $gutter;
+      right: $gutter;
+    }
+
+    position: relative;
+    border: $divider;
+    border-radius: $gutter;
+    font-family: $font-code;
+    font-weight: 300;
+    padding: calc(6 * #{$gutter}) calc(1 * #{$gutter});
+    display: block;
     box-sizing: border-box;
-    margin: spacing(large);
-  }
-
-  @media screen and (max-width: $screen-width-split) {
-    margin: spacing(small);
-    padding: spacing(medium);
   }
 }

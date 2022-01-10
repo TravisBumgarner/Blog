@@ -13,13 +13,13 @@
 <!-- Templates
 
 {{< youtube id >}} 
-{{< figure src="/image/time-management-and-productivity/file.jpg" title="Title" >}}
+{{< figure src="/image/time-management-and-productivity/file.jpg" caption="Title" >}}
 
 -->
 
 *Note*: This article was originally published to the Painless Prototyping Blog (now deactivated) on October 27th, 2016. 
 
-{{< figure src="/image/time-management-and-productivity/productivity.jpg" title="How my Desk Typically Looks" >}}
+{{< figure src="/image/time-management-and-productivity/productivity.jpg" caption="How my Desk Typically Looks" >}}
 
 ### Introduction
 
@@ -55,7 +55,7 @@ Take a look at the places where you work, are they actually productive? Are you 
 
 There’s a difference between motivation and discipline. I’ll let this eloquent reply I stole from Reddit explain my feelings…
 
-{{< figure src="/image/time-management-and-productivity/productivity2.png" title="Q: How to be Motivated? A: Fuck motivation." >}}
+{{< figure src="/image/time-management-and-productivity/productivity2.png" caption="Q: How to be Motivated? A: Fuck motivation." >}}
 
 With that said, the 15 Minutes a Day rule is my favorite way of dealing with a lack of motivation. Often, I’ll come home from work and attempt to get working on a project but will opt to play video games or watch TV instead. What I’ve found, is if you promise yourself to sit down for 15 minutes of work each day, worst case you’ll have put in 15 minutes of work on a project, best case, your attitude will change and you’ll get sucked into the project and before you know it, it’s bed time.
 

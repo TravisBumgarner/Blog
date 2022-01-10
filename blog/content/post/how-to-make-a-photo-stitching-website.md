@@ -37,7 +37,7 @@ I had a graveyard full of half completed projects. My love of side projects was 
 
 I came across this lovely [CSS Cross Stitch](https://codepen.io/oliviale/pen/RwNdeeQ) of the Pokemon Cyndaquil by [Olivia Ng](https://twitter.com/meowlivia_). (Screenshot of the resulting image below)
 
-{{< figure src="/image/how-to-make-a-photo-stitching-website/motivation.png" title="Project Motivation" >}}
+{{< figure src="/image/how-to-make-a-photo-stitching-website/motivation.png" caption="Project Motivation" >}}
 
 ### A little bit more background...
 
@@ -47,7 +47,7 @@ To make sharing my fun projects with the world - I decided it was time for new h
 
 I banged my head against the wall, a lot. I tried to keep track of all the resources that I used but in the end gave up. Here is what just one day of my browsing history for "Google Cloud Platform" looked like:
 
-{{< figure src="/image/how-to-make-a-photo-stitching-website/somanylearnings.png" title="Lots to Learn" >}}
+{{< figure src="/image/how-to-make-a-photo-stitching-website/somanylearnings.png" caption="Lots to Learn" >}}
 
 The above image goes to show that even with several years of experience, I'm still Googling lots of things.
 
@@ -60,7 +60,7 @@ I am super grateful to the developer community and was able to keep track of som
 
 ### How It Works - The Architecture
 
-{{< figure src="/image/how-to-make-a-photo-stitching-website/architecture.png" title="Architecture" >}}
+{{< figure src="/image/how-to-make-a-photo-stitching-website/architecture.png" caption="Architecture" >}}
 
 #### Preface
 
@@ -154,11 +154,11 @@ def kmeans_image(img):
 
 I've taken a few of my own photographs and run them through. 
 
-{{< figure src="/image/how-to-make-a-photo-stitching-website/result1.png" title="Result 1" >}}
+{{< figure src="/image/how-to-make-a-photo-stitching-website/result1.png" caption="Result 1" >}}
 
-{{< figure src="/image/how-to-make-a-photo-stitching-website/result2.png" title="Result 2" >}}
+{{< figure src="/image/how-to-make-a-photo-stitching-website/result2.png" caption="Result 2" >}}
 
-{{< figure src="/image/how-to-make-a-photo-stitching-website/result3.png" title="Result 3" >}}
+{{< figure src="/image/how-to-make-a-photo-stitching-website/result3.png" caption="Result 3" >}}
 
 ### Call to Action
 

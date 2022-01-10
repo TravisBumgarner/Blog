@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
+{{ partial "navigation.html" . }}
 <div class="content-wrapper">
-	<!-- {{ partial "sidebar.html" . }} -->
+	{{ partial "sidebar.html" . }}
 	<div class="main-wrapper">
 		<main class="list">
 			{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}

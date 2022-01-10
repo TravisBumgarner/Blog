@@ -21,7 +21,7 @@
 <!-- Templates
 
 {{< youtube id >}} 
-{{< figure src="/image/{{ .Name }}/file.jpg" title="Title" >}}
+{{< figure src="/image/{{ .Name }}/file.jpg" caption="Title" >}}
 
 -->
 
