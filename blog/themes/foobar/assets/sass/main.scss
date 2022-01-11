@@ -19,6 +19,7 @@ body {
 
   @media only screen and (max-width: $phone-breakboint) {
     padding: 0;
+    margin: 0;
   }
 
   a {
@@ -32,7 +33,6 @@ body {
   p,
   li {
     line-height: calc(1rem * #{$fibonacci});
-    // font-weight: 300;
   }
 
   h1,
@@ -169,9 +169,13 @@ nav {
 
 main.list {
   article.summary {
-    margin-bottom: calc(6 * #{$gutter});
+    margin-bottom: calc(4 * #{$gutter});
     padding: 0 $gutter;
     position: relative;
+
+    &:last-of-type {
+      margin-bottom: calc(2 * #{$gutter});
+    }
 
     h2 {
       font-weight: 900;
@@ -229,6 +233,18 @@ main.list {
     @media only screen and (max-width: $phone-breakboint) {
       width: 100%;
       box-sizing: border-box;
+
+      h2 {
+        font-size: calc(1rem * #{$fibonacci} * 1);
+      }
+
+      .image-and-text-wrapper {
+        p {
+          font-size: 1rem;
+          padding: calc(#{$gutter} * 0.5);
+          width: 80%;
+        }
+      }
     }
   }
 }
