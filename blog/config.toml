@@ -1,4 +1,4 @@
-baseURL = "https://blog.travisbumgarner.com"
+baseURL = "travisbumgarner.com"
 languageCode = "en-us"
 title = "Travis Bumgarner"
 theme="foobar"
