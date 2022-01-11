@@ -7,7 +7,8 @@
         "My Process"
     ],
     "project": "",
-    "description": "I love starting hobby projects. However, I seem to hate finishing them. Let's figure out how to finish things."
+    "description": "I love starting hobby projects. However, I seem to hate finishing them. Let's figure out how to finish things.",
+        "preview_image": "/image/finish-what-you-start/preview_image.jpg"
 }
 
 ### Introduction

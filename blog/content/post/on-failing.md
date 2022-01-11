@@ -8,7 +8,8 @@
         "My Process"
     ],
     "project": "failure",
-    "description": "I marked my service in the Peace Corps as a failure. After much reflection on that summarization, I realized there is more than one way to look at failure."
+    "description": "I marked my service in the Peace Corps as a failure. After much reflection on that summarization, I realized there is more than one way to look at failure.",
+    "preview_image": "/image/on-failing/preview_image.jpg"
 }
 
 *Note*: This article was originally published to the Painless Prototyping Blog (now deactivated) on October 16th, 2016. 

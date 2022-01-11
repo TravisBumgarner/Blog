@@ -8,7 +8,8 @@
         "Presentations"
     ],
     "project": "",
-    "description": "This is my first technical talk! I wanted to share with the world what I've learned working with folks from different backgrounds and disciplines."
+    "description": "This is my first technical talk! I wanted to share with the world what I've learned working with folks from different backgrounds and disciplines.",
+    "preview_image": "/image/talking-technical-with-non-technical-talkers/preview_image.jpg"
 }
 
 This is my first technical talk! I wanted to share with the world what I've learned working with folks from different backgrounds and disciplines.

@@ -28,10 +28,20 @@ body {
     }
   }
 
+  a,
   p,
   li {
     line-height: calc(1rem * #{$fibonacci});
     font-weight: 300;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: initial;
   }
 
   a {
@@ -158,18 +168,49 @@ nav {
 
 main.list {
   article.summary {
-    // width: 50%;
-    // float: left;
-    // border-left: $divider;
-    margin-bottom: calc(2 * #{$gutter});
+    margin-bottom: calc(6 * #{$gutter});
     padding: 0 $gutter;
-    box-sizing: border-box;
+    position: relative;
 
     h2 {
-      font-size: calc(1rem * #{$fibonacci} * 1);
       font-weight: 900;
-      margin: 0;
+      font-size: calc(1rem * 2 * #{$fibonacci});
       padding: 0;
+      margin: 0 0 $gutter 0;
+      height: calc(1rem * 5 * #{$fibonacci});
+    }
+
+    .image-and-text-wrapper {
+      position: relative;
+
+      p {
+        font-weight: 400;
+        text-align: justify;
+        font-size: calc(1rem * #{$fibonacci});
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: $gutter;
+        background-color: rgba(255, 255, 255, 0.8);
+
+        a {
+          font-weight: 900;
+        }
+
+        strong {
+          font-weight: 400;
+        }
+      }
+      a {
+        border: none;
+        img {
+          width: 100%;
+
+          &:hover {
+            border-bottom: 0;
+          }
+        }
+      }
     }
 
     .topic {
@@ -181,13 +222,8 @@ main.list {
       }
     }
 
-    p {
-      font-weight: 100;
-      text-align: justify;
-
-      strong {
-        font-weight: 400;
-      }
+    @media only screen and (max-width: $phone-breakboint) {
+      width: 100%;
     }
   }
 }
@@ -197,14 +233,39 @@ main.single {
   padding: 0 calc(1 * #{$gutter});
   width: 100%;
 
-  h2 {
-    font-size: calc(1rem * #{$fibonacci} * 3);
-    font-weight: 900;
-    margin: 0 0 $gutter 0;
-    padding: 0;
+  $header-line-height: 1.2;
+  .header-wrapper {
+    // padding: $gutter;
+    background-color: rgba(255, 255, 255, 0.2);
 
-    @media only screen and (max-width: $phone-breakboint) {
-      font-size: calc(1rem * #{$fibonacci} * 1.2);
+    position: relative;
+    height: calc(3rem * #{$fibonacci} * 4 * #{$header-line-height});
+    width: 100%;
+    margin-bottom: calc(4  * #{$gutter});
+    margin-top: calc(4  * #{$gutter});
+
+    .header-background-img {
+      position: absolute;
+      height: calc(3rem * #{$fibonacci} * 4 * #{$header-line-height});
+      width: 100%;
+      z-index: -1;
+      opacity: 0.4;
+      background-size: cover;
+    }
+
+    h2 {
+      opacity: 1;
+      line-height: $header-line-height;
+      font-size: calc(1rem * #{$fibonacci} * 3);
+      font-weight: 900;
+      margin: 0 0 $gutter 0;
+      padding: calc(2 * #{$gutter});
+      position: absolute;
+      bottom: 0;
+
+      @media only screen and (max-width: $phone-breakboint) {
+        font-size: calc(1rem * #{$fibonacci} * 1.2);
+      }
     }
   }
 

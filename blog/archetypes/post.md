@@ -15,7 +15,8 @@
         "Wood Working"
     ],
     "project": "",
-    "description": ""
+    "description": "",
+    "preview_image": "https://placedog.net/500"
 }
 
 <!-- Templates

@@ -7,7 +7,8 @@
         "Projects"
     ],
     "project": "Painless Prototyping",
-    "description": "One Day I decided to learn how to make circuit boards. Several months later, my first PCB arried in the mail. This is how I got there."
+    "description": "One Day I decided to learn how to make circuit boards. Several months later, my first PCB arried in the mail. This is how I got there.",
+    "preview_image": "/image/how-to-build-a-circuit-board/preview_image.jpg"
 }
 
 *Note*: This article was originally published to the Painless Prototyping Blog (now deactivated) on November 17th, 2016. 

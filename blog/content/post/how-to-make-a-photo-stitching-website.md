@@ -7,7 +7,8 @@
         "Projects"
     ],
     "project": "photo-stitching",
-    "description": "Engineers love to start side projects and never finish them. This leads to burnout. Why not build fun things instead? How about a tool to develop virtual cross stitches!"
+    "description": "Engineers love to start side projects and never finish them. This leads to burnout. Why not build fun things instead? How about a tool to develop virtual cross stitches!",
+    "preview_image": "/image/how-to-make-a-photo-stitching-website/preview_image.jpg"
 }
 
 <!-- Where to Post

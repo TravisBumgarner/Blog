@@ -7,7 +7,8 @@
         "Entrepreneurship"
     ],
     "project": "Painless Prototyping",
-    "description": "In 2016, I set out to launch my first product on Kickstarter. I failed, did some research, tried again and succeeded. These are my observations."
+    "description": "In 2016, I set out to launch my first product on Kickstarter. I failed, did some research, tried again and succeeded. These are my observations.",
+    "preview_image": "/image/failing-at-kickstarter/preview_image.jpg"
 }
 
 *Note*: This article was originally published to the Painless Prototyping Blog (now deactivated) on September 18th, 2016. 

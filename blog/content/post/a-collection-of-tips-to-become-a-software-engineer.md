@@ -7,7 +7,8 @@
         "Careers"
     ],
     "project": "interviewing",
-    "description": "Over the years I have been on both sides of the interview process. I have learned a wealth of experience, here is my advice."
+    "description": "Over the years I have been on both sides of the interview process. I have learned a wealth of experience, here is my advice.",
+    "preview_image": "/image/a-collection-of-tips-to-become-a-software-engineer/preview_image.jpg"
 }
 
 <!-- Templates

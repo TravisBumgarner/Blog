@@ -7,7 +7,8 @@
         "My Process"
     ],
     "project": "time-management",
-    "description": "I have gotten very good at managing my time over the years, here is how I do it."
+    "description": "I have gotten very good at managing my time over the years, here is how I do it.",
+    "preview_image": "/image/time-management-and-productivity/preview_image.jpg"
 }
 
 <!-- Templates
