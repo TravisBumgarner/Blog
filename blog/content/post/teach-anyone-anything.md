@@ -8,7 +8,7 @@
  "Presentations"
 ],
 "project": "teach-anyone-anything",
-"description": "I have had a long journey of learning many subjects. Along the way, I aspired to one day give back and share my experiences and knowledge. However, I wasn’t the best teacher. I decided to take my desire to learn and apply it to improving myself as a teacher. I have learned a lot along the way and I'll share those lessons learned here.",
+"description": "I have learned a lot along the way and I'll share those lessons learned here.",
 "preview_image": "/image/teach-anyone-anything/cinnova.jpg"
 }
 

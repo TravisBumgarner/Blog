@@ -8,8 +8,10 @@
         <a href="{{ .Permalink }}">
             <img src="{{.Params.preview_image}}">
         </a>
-        <p>
-            {{ .Params.description }} <a href="{{ .Permalink }}">Read More</a><br>
-        </p>
+        <a href="{{ .Permalink }}">
+            <p>
+                {{ .Params.description }}<br>
+            </p>
+        </a>
     </div>
 </article>
