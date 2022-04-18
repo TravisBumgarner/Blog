@@ -4,15 +4,11 @@
     "draft": true,
     "tools": [],
     "topics": [
-        "Digital Design",
+        "Careers",
         "Entrepreneurship",
-        "Electronics",
-        "Mechanical Engineering",
         "My Process",
-        "Photography",
-        "Random",
-        "Web Development",
-        "Wood Working"
+        "Presentations",
+        "Projects"
     ],
     "project": "",
     "description": "",
