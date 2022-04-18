@@ -88,7 +88,7 @@ Now imagine, you're two years down the road and you need to implement `lib-foo` 
 
 Over time, the collection of references grows. You can share them with others who are learning what you've learned. You can implement those technologies more easily the second time around. You're moving at a better pace!
 
-### Fast Forward Two years
+### Fast Forward Two Years
 
 You sit down to begin a new project integrating `lib-foo`, `lib-bar`, and `lib-buzz` into an existing code base. Will you rush to get a pull request open that's at best, a rough draft?
 
