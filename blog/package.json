@@ -1,0 +1,21 @@
+{
+    "name": "i-make-things",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "hugo -d html",
+        "deploy": "gcloud config set project root-270023 && gcloud builds submit --tag gcr.io/root-270023/i-make-things && gcloud run deploy i-make-things --image gcr.io/root-270023/i-make-things --platform managed --region us-east1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TravisBumgarner/i-make-things.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TravisBumgarner/i-make-things/issues"
+    },
+    "homepage": "https://github.com/TravisBumgarner/i-make-things#readme"
+}

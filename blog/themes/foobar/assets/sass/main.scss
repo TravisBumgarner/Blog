@@ -109,16 +109,6 @@ nav {
     display: none;
   }
 
-  @media only screen and (max-width: $phone-breakboint) {
-    .desktop-nav-item {
-      display: none;
-    }
-
-    #mobile-nav {
-      display: initial;
-    }
-  }
-
   ul {
     list-style: none;
     display: flex;
@@ -127,6 +117,11 @@ nav {
     position: relative;
 
     li {
+      &:first-child{
+        width: 100%;
+      }
+      white-space: nowrap;
+
       display: block;
 
       margin-right: calc(2 * #{$gutter});
@@ -154,6 +149,7 @@ nav {
         transition: all 0.5s ease;
         margin-top: 0;
         display: none;
+        right: 35px;
 
         li {
           clear: both;
@@ -164,6 +160,16 @@ nav {
           }
         }
       }
+    }
+  }
+
+  @media only screen and (max-width: $phone-breakboint) {
+    .desktop-nav-item {
+      display: none;
+    }
+
+    #mobile-nav {
+      display: initial;
     }
   }
 }
