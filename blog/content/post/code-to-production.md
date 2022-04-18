@@ -1,5 +1,5 @@
 {
- "title": "Write Better Code While Moving Fast",
+ "title": "Write Good Code While Move Fast",
  "date": "2022-04-18T13:52:11+02:00",
  "draft": true,
  "tools": [],
@@ -60,8 +60,6 @@ Sound familiar? In the next section we'll look at some strategies to remedy this
 
 ### There's a Better Way
 
-#### Use What you Know to Your Advantage so you can Focus on What you Don't
-
 Engineers face a lot of frustrating situations. The most frustrating activities is troubleshooting several bugs at the same time.
 Nothing is more effective at killing enthusiasm and motivation. When you're learning something new, you should focus on learning something new. Everything else should get out of the way.
 
@@ -69,31 +67,32 @@ I do a lot of work with React. When I wanted to learn something new with React, 
 
 You might be thinking, "Why didn't you use [Create React App](https://create-react-app.dev/)?". Well, because I don't know Create React App. I have been maintaining my React Cookiecutter for several years now, and it just works. If Create React App is a tool you know, use it. Use what you know, the code that isn't important should get out of the way so you can focus on what you're learning. 
 
-Some other great tools that give you a sandbox to learn in include: 
-- Have a simple snippet of code you want to play around with and don't need an entire app worth of boilerplate? Fiddles are great tools that give you a small sandbox.  You can code in it and share it with others and they can iterate on it. Try searching on Google for things like "JavaScript Fiddle" or "Python Fiddle".
-- Need a database or some other complex system running locally? Docker is an amazing tool. With a few quick commands, you can have a Postgres database running locally to do your sandboxing with. 
+Now that I have an environment to play around in, it's time to start learning. 
 
-#### Create a Collection of References
+I tend to do my learning with one of tho goals in mind.
 
-Have you ever written an essay that was perfect on the first attempt? Highly unlikely. The eloquent essay comes from trial and error, from feedback, from iteration. The same can be applied to writing code. Your first attempt at solving a problem is going to be bad, sloppy, inefficient. If you're tackling a problem in a domain you're unfamiliar with, do it in isolation. 
+When I want to try out a new technology in isolation I'll create a new folder in my [Learning Repo](https://github.com/TravisBumgarner/learning/tree/master/archives). My process is usually the following: 
 
-Furthermore, building off of the previous point, you want to explore the problem without the distraction of issues that aren't part of the learning. If you need to both learn a thing, and figure out how that thing integrates with the rest of the system, at the same time, the solution will be less than ideal.
+1. Use one of my Cookiecutters to spin up a sandbox to play in.
+2. Follow along with a tutorial to learn the basics of the library.
+3. Explore the libraries ideas and concepts.
+4. When I'm content with my learnings I'll add it to my Learning Repo.
 
-So how do I address these two issues? I like to create coding environments, similar to where I'll be working, but without the complexity of the rest of the codebase to consider. This process usually starts with me using my React Cookiecutter (mentioned in the previous section) to get a working environment up and running. This will give me a sandbox to play around in. 
+For more complicated tasks, I'll create a folder in my [Proof of Concepts Repo](https://github.com/TravisBumgarner/proof-of-concepts). An example of such a task would be integrating two libraries I don't know with each other. I'll start by exploring each seperately in the Learning Repo. Then I'll use those two explorations as references to integrate the two together. If at any point I get stuck, integrating the two, I always have the Learning Repo to go back and experiment with each library in isolation. 
 
-Some might argue that I'm writing throwaway code. I prefer to call it reference code. I'm creating a collection of references for when I need to use that technology in a different codebase, months or years from now. Furthermore, the majority of the code I write in a sandbox gets copied into the codebase. 
+Some might argue that I'm writing throwaway code. I prefer to call it reference code. I have a place to look if I need to use that technology in a different codebase in the future. Furthermore, the majority of the code I write in a sandbox gets copied into the codebase. 
 
-As I start working in the actual codebase, I might get stuck on something, perhaps integrating the new library, lib-foo with some other library lib-bar . In this situation, I can jump back into my sandbox. I'll duplicate my current sandbox so I'll have two references one for learning lib-foo and another for integrating lib-foo with lib-bar . Now I can look at the integration, isolated from the rest of the codebase. 
+As I start working in the actual codebase, I might get stuck on something. In this situation, I can jump back into any of my reference code and troubleshoot in isolation. I can figure out if the issue is from the new libraries or from pre-existing code. 
 
-Now imagine, you're two years down the road and you need to implement lib-foo again. You could try and take a look at where you originally implemented it, but maybe you don't have access to that codebase anymore. Instead, what you have is a code reference you can look at. 
+Now imagine, you're two years down the road and you need to implement `lib-foo` again. You could try and take a look at where you originally implemented it, but maybe you don't have access to that codebase anymore. Instead, what you have is a code reference you can look at. 
 
-For some inspiration, you can check out my collection of references. I have two repositories, [one for learning new technologies](https://github.com/TravisBumgarner/learning/tree/master/archives) and [another for more in-depth of proof of concepts](https://github.com/TravisBumgarner/proof-of-concepts). 
+Over time, the collection of references grows. You can share them with others who are learning what you've learned. You can implement those technologies more easily the second time around. You're moving at a better pace!
 
 ### Fast Forward Two years
 
 You sit down to begin a new project integrating `lib-foo`, `lib-bar`, and `lib-buzz` into an existing code base. Will you rush to get a pull request open that's at best, a rough draft?
 
-Or will you have sandboxes for `lib-bar` and `lib-buzz` that you can reference? Where you can build a solution more easily, elegantly, and more quickly? 
+Or will you have learning repos for `lib-foo` and `lib-bar`? A proof of concept on how the two connect together? Where you can build a solution more easily, elegantly, and more quickly? 
 
 The choice is yours.
 
