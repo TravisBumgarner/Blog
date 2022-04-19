@@ -28,10 +28,6 @@
  
  -->
 
-Bits I need to add in somewhere...
-- You can move just as fast as before but now you're writing better code.
-
-
 ### Code Quality Suffers Because Engineers Have to Move too Fast
 
 Software engineers are often forced to deliver value quickly for the customer. They move fast. What they create is a mixture of researching, brainstorming, learning, prototyping, and final drafting. It's an absolute mess. It's important to seperate the mixture of activities. Do one activity. Do it well. Focus on getting your final draft into production and nothing else. 
