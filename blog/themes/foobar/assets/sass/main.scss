@@ -357,7 +357,7 @@ main.single {
     max-width: 100%;
   }
 
-  code {
+  code.language-multiline { // I could not figure out how to do multiline vs singleline styling. This is a bad workaround. But it works lol.
     position: relative;
     border: $divider;
     border-radius: $gutter;
