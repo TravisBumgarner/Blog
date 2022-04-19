@@ -1,5 +1,5 @@
 {
- "title": "Write Good Code While Move Fast",
+ "title": "Write Good Code and Move Fast",
  "date": "2022-04-18T13:52:11+02:00",
  "draft": true,
  "tools": [],
