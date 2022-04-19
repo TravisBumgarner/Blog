@@ -34,29 +34,21 @@ Bits I need to add in somewhere...
 
 ### Code Quality Suffers Because Engineers Have to Move too Fast
 
-Software engineers run upon a perpetual treadmill. They move tasks from the todo column to the done column as quickly as possible. When they open a pull request they take a look at their code. It's a mixture of brainstorming, researching, learning, prototyping, rough drafting, and final drafting. It's an absolute mess.
+Software engineers are often forced to deliver value quickly for the customer. They move fast. What they create is a mixture of researching, brainstorming, learning, prototyping, and final drafting. It's an absolute mess. It's important to seperate the mixture of activities. Do one activity. Do it well. Focus on getting your final draft into production and nothing else. 
 
-At first, it seems legible. But that's because they've spent their working time over the past few weeks neck deep in it. Will it continue to be legible six months from now? Could a coworker comprehend it? I suspect that coworker might feign comprehension. They too are running on a perpetual treadmill.
+### How does it happen?
 
-The codebase crumbles under the weight of its complexity. We forget, as we write code, that the majority of our time in the future is spent reading and rereading it.
+You are tasked with implementing some new library, `lib-foo`, into your codebase.
 
-It's important to seperate the mixture of activities. Do one activity, do it well. Focus on getting your final draft into production and nothing else. 
+You install the package and immediately get faced with bugs. You play the game of whack-a-mole, solving one bug after the next. Are you learning anything about this new library?
 
-### An Example - An Exploration in `lib-foo` Implementation
+After days of banging your head against the wall, you get something that compiles and does what you want. Was that the best way to do it?
 
-Tell me if you've ever experienced this before.
+You create a pull request and take a look over your code. What a mess. Will you be able to understand it six months in the future?
 
-You are tasked with implementing some new library, `lib-foo`, into your codebase. You install the package and get to implementing it. Out of nowhere, a bug. Off to Stack Overflow. You copy some snippet of code, bug gone. Oh wait, another bug. You play the game of whack-a-mole with bugs. You wonder, are you learning anything about this new library?
+Two years later, you're at a new job and are again tasked with implementing `lib-foo`. Do you remember anything about the library?
 
-Now it's time to jump into that file nobody wants to touch. Your eyes gloss over. You're attempting to add a library to a file you don't understand. Somehow you get the library working with that file. Just kidding, more vague bugs. Is the bug from `lib-foo` or from this mess of a file? Or the combination of the two? You have no idea.
-
-After days of banging your head against the wall, you get something that compiles and does what you want. Was that the best way to do it? Who knows. You create a pull request and take a look over your code. What a mess. But you're done. You'll never have to look at that code again.
-
-Three months go by. A new version of `lib-foo` comes out. You take a look at the mess of code and you wonder who wrote it? Oh you did, cool. What even did this library do? You can't remember. You grit your teeth and jump in. The task gets completed, it's sloppy. You hope you never have to go near `lib-foo` again. 
-
-Two years later, you're at a new job. You've just finished a task and are looking for something else to start. One card remains ready to be completed - Implement `lib-foo`. 
-
-Sound familiar? In the next section we'll look at some strategies to remedy this situation.
+Sound familiar?
 
 ### There's a Better Way
 
