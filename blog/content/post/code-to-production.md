@@ -38,9 +38,9 @@ Software engineers run upon a perpetual treadmill. They move tasks from the todo
 
 At first, it seems legible. But that's because they've spent their working time over the past few weeks neck deep in it. Will it continue to be legible six months from now? Could a coworker comprehend it? I suspect that coworker might feign comprehension. They too are running on a perpetual treadmill.
 
-The codebase crumbles under the weight of its complexity. We forget, as we write code, that the majority of our time in the future is spend reading and rereading it.
+The codebase crumbles under the weight of its complexity. We forget, as we write code, that the majority of our time in the future is spent reading and rereading it.
 
-I've found that avoiding the mixing brings a much higher level of quality to the codebase. 
+It's important to seperate the mixture of activities. Do one activity, do it well. Focus on getting your final draft into production and nothing else. 
 
 ### An Example - An Exploration in `lib-foo` Implementation
 
@@ -60,7 +60,7 @@ Sound familiar? In the next section we'll look at some strategies to remedy this
 
 ### There's a Better Way
 
-Engineers face a lot of frustrating situations. The most frustrating activities is troubleshooting several bugs at the same time.
+Engineers face a lot of frustrating situations. The most frustrating activity is troubleshooting several bugs at the same time.
 Nothing is more effective at killing enthusiasm and motivation. When you're learning something new, you should focus on learning something new. Everything else should get out of the way.
 
 I do a lot of work with React. When I wanted to learn something new with React, I'd copy an old project, gut it, and use that to start. At some point, I learned of [Cookiecutter](https://github.com/cookiecutter/cookiecutter). It's a a Python tool for generating a project's boilerplate from a template. No Python experience required. Tired of copying, pasting, and gutting, I wrote myself a [React Cookiecutter](https://github.com/TravisBumgarner/cookiecutter-react) to speed things up. I know the code well. With a simple Python command I've got a sandbox to start learning about some new React library.
@@ -69,7 +69,7 @@ You might be thinking, "Why didn't you use [Create React App](https://create-rea
 
 Now that I have an environment to play around in, it's time to start learning. 
 
-I tend to do my learning with one of tho goals in mind.
+I tend to do my learning with one of those goals in mind.
 
 When I want to try out a new technology in isolation I'll create a new folder in my [Learning Repo](https://github.com/TravisBumgarner/learning/tree/master/archives). My process is usually the following: 
 
@@ -78,7 +78,7 @@ When I want to try out a new technology in isolation I'll create a new folder in
 3. Explore the libraries ideas and concepts.
 4. When I'm content with my learnings I'll add it to my Learning Repo.
 
-For more complicated tasks, I'll create a folder in my [Proof of Concepts Repo](https://github.com/TravisBumgarner/proof-of-concepts). An example of such a task would be integrating two libraries I don't know with each other. I'll start by exploring each seperately in the Learning Repo. Then I'll use those two explorations as references to integrate the two together. If at any point I get stuck, integrating the two, I always have the Learning Repo to go back and experiment with each library in isolation. 
+For more complicated tasks, I'll create a folder in my [Proof of Concepts Repo](https://github.com/TravisBumgarner/proof-of-concepts). An example of such a task would be integrating two libraries I don't know with each other. I'll start by exploring each seperately in the Learning Repo. Then I'll use those two explorations as references to integrate the two together. If at any point I get stuck integrating the two, I always have the Learning Repo to go back and experiment with each library in isolation. 
 
 Some might argue that I'm writing throwaway code. I prefer to call it reference code. I have a place to look if I need to use that technology in a different codebase in the future. Furthermore, the majority of the code I write in a sandbox gets copied into the codebase. 
 
