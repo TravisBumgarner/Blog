@@ -89,7 +89,7 @@ I have been rather fearful of racking up a large bill with this project. I setup
 
 I've scattered comments throughout the code below. 
 
-```
+```multiline
 # 1. Read image from file upload
 npimg = np.frombuffer(filestr, np.uint8)
 img = cv2.imdecode(npimg, cv2.IMREAD_UNCHANGED)

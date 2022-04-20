@@ -13,9 +13,13 @@ body {
   box-sizing: border-box;
   font-size: 18px;
   font-family: $font-global;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: $gutter;
+
+  strong {
+    font-weight: 500;
+  }
 
   @media only screen and (max-width: $phone-breakboint) {
     padding: 0;
@@ -116,6 +120,10 @@ nav {
     padding: 0;
     position: relative;
 
+    #mobile-nav > ul {
+      right: 35px;
+    }
+
     li {
       &:first-child{
         width: 100%;
@@ -149,7 +157,6 @@ nav {
         transition: all 0.5s ease;
         margin-top: 0;
         display: none;
-        right: 35px;
 
         li {
           clear: both;
@@ -209,10 +216,6 @@ main.list {
 
         a {
           font-weight: 900;
-        }
-
-        strong {
-          font-weight: 400;
         }
       }
 
@@ -284,7 +287,7 @@ main.single {
     h2 {
       opacity: 1;
       line-height: $header-line-height;
-      font-size: calc(1rem * #{$fibonacci} * 3);
+      font-size: calc(1rem * #{$fibonacci} * 2.5);
       font-weight: 900;
       margin: 0 0 $gutter 0;
       padding: calc(2 * #{$gutter});
@@ -298,14 +301,10 @@ main.single {
   }
 
   h3 {
-    font-size: calc(1rem * #{$fibonacci} * 2);
-    font-weight: 900;
-    margin: calc(#{gutter} * 4) 0 calc(#{gutter} * 2) 0;
+    font-size: calc(1rem * #{$fibonacci} * 1.2);
+    font-weight: 600;
+    margin: calc(#{$gutter} * 2) 0 calc(#{$gutter} * 1.5) 0;
     padding: 0;
-
-    @media only screen and (max-width: $phone-breakboint) {
-      font-size: calc(1rem * #{$fibonacci} * 1.2);
-    }
   }
 
   h4 {
@@ -320,8 +319,17 @@ main.single {
   }
 
   p {
-    font-weight: 300;
+    font-weight: 100;
     max-width: 70rem;
+  }
+
+  a {
+    font-weight: 100;
+    text-decoration: underline;
+  }
+
+  li {
+    font-weight: 100;
   }
 
   time,
@@ -343,7 +351,7 @@ main.single {
   figure {
     margin: $figure-spacing;
     display: flex;
-    align-itrems: center;
+    align-items: center;
     flex-direction: column;
 
     figcaption {
@@ -357,7 +365,12 @@ main.single {
     max-width: 100%;
   }
 
-  code {
+  code:not(.language-multiline){
+    background-color: #e2e2e2;
+    padding: 0 6px;
+  }
+
+  code.language-multiline { // I could not figure out how to do multiline vs singleline styling. This is a bad workaround. But it works lol.
     position: relative;
     border: $divider;
     border-radius: $gutter;

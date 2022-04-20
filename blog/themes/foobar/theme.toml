@@ -1,8 +1,8 @@
 name = "foobar"
 license = "MIT"
-licenselink = "https://github.com/TravisBumgarner/i-make-things/tree/master/blog/themes/LICENSE.md"
+licenselink = "https://github.com/TravisBumgarner/blog/tree/master/blog/themes/LICENSE.md"
 description = "Theme for this blog."
-homepage = "https://github.com/travisbumgarner/i-make-things"
+homepage = "https://github.com/travisbumgarner/blog"
 features = ["blog"]
 min_version = 0.52
 
