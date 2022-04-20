@@ -4,8 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "dev": "hugo server -FD",
         "build": "hugo -d html",
-        "deploy": "gcloud config set project root-270023 && gcloud builds submit --tag gcr.io/root-270023/i-make-things && gcloud run deploy i-make-things --image gcr.io/root-270023/i-make-things --platform managed --region us-east1"
+        "deploy": "npm run build && gcloud config set project root-270023 && gcloud builds submit --tag gcr.io/root-270023/i-make-things-uniqueid && gcloud run deploy i-make-things2 --image gcr.io/root-270023/i-make-things-uniqueid --platform managed --region us-east1"
     },
     "repository": {
         "type": "git",
