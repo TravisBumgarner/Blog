@@ -56,7 +56,7 @@ Of all of these situations, though, nothing is more effective at killing enthusi
 
 I do a lot of work with React. When I wanted to learn something new with React, I'd copy an old project, gut it, and use that to start.
 
-At some point, I learned of Cookiecutter](https://github.com/cookiecutter/cookiecutter). It is a Python tool for generating a project's boilerplate from a template. No Python experience required. Tired of copying, pasting, and gutting, I wrote myself a [React Cookiecutter](https://github.com/TravisBumgarner/cookiecutter-react) to speed things up. I know the code well. Now, with a simple Python command, I've got a sandbox to start learning about a new React library.
+At some point, I learned of [Cookiecutter](https://github.com/cookiecutter/cookiecutter). It is a Python tool for generating a project's boilerplate from a template. No Python experience required. Tired of copying, pasting, and gutting, I wrote myself a [React Cookiecutter](https://github.com/TravisBumgarner/cookiecutter-react) to speed things up. I know the code well. Now, with a simple Python command, I've got a sandbox to start learning about a new React library.
 
 Folks familiar with [Create React App](https://create-react-app.dev/) might be wondering: why not just use that? Well, I have been maintaining my React Cookiecutter for several years now and it is very familiar for me. If Create React App is a tool you know well, use it.
 
@@ -73,7 +73,7 @@ My process is usually the following:
 
 For more complicated tasks, I'll create a folder in my [Proof of Concepts Repo](https://github.com/TravisBumgarner/proof-of-concepts). An example of such a task would be connecting two libraries I don't know with each other. I'll start by exploring each separately in the Learning Repo. Then I'll use those two explorations as references to integrate the two together.
 
-Some might say that I'm writing throwaway code and it is a waste of time. Bad code is a liability. I'm throwing away code but it is only so that I can improve the quality of the code going to production. Furthermore, it is reference code. I have a place to look if I need to use that technology in a different codebase in the future. Finally, the majority of the code I write in a sandbox gets copied into the codebase.
+Some might say that I'm writing throwaway code and it is a waste of time. Bad code is a liability. I'm throwing away code but it is only so that I can focus on writing a final draft of code for production. Furthermore, it is reference code. I have a place to look if I need to use that technology in a different codebase in the future. Finally, the majority of the code I write in a sandbox gets copied into the codebase.
 
 As I start working in the actual codebase, I might get stuck on something. In this situation, I can jump back into any of my reference code and troubleshoot in isolation. I can figure out if the issue is from the new libraries or from pre-existing code.
 
