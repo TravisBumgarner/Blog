@@ -1,5 +1,5 @@
 {
-    "name": "i-make-things",
+    "name": "blog",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -10,13 +10,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TravisBumgarner/i-make-things.git"
+        "url": "git+https://github.com/TravisBumgarner/blog.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/TravisBumgarner/i-make-things/issues"
+        "url": "https://github.com/TravisBumgarner/blog/issues"
     },
-    "homepage": "https://github.com/TravisBumgarner/i-make-things#readme"
+    "homepage": "https://github.com/TravisBumgarner/blog#readme"
 }
