@@ -301,14 +301,10 @@ main.single {
   }
 
   h3 {
-    font-size: calc(1rem * #{$fibonacci} * 2);
-    font-weight: 900;
-    margin: calc(#{gutter} * 4) 0 calc(#{gutter} * 2) 0;
+    font-size: calc(1rem * #{$fibonacci} * 1.2);
+    font-weight: 600;
+    margin: calc(#{$gutter} * 2) 0 calc(#{$gutter} * 1.5) 0;
     padding: 0;
-
-    @media only screen and (max-width: $phone-breakboint) {
-      font-size: calc(1rem * #{$fibonacci} * 1.2);
-    }
   }
 
   h4 {
