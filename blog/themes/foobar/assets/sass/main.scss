@@ -323,8 +323,13 @@ main.single {
   }
 
   p {
-    font-weight: 300;
+    font-weight: 100;
     max-width: 70rem;
+  }
+
+  a {
+    font-weight: 100;
+    text-decoration: underline;
   }
 
   li {
