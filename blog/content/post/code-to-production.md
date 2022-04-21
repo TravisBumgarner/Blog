@@ -1,7 +1,7 @@
 {
  "title": "Software Engineers Rush to Write Bad Code",
  "date": "2022-04-18T13:52:11+02:00",
- "draft": true,
+ "draft": false,
  "tools": [],
  "topics": [
  "My Process"
