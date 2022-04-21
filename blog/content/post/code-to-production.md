@@ -28,6 +28,8 @@
  
  -->
 
+ ([Originally posted on the DEPT® Engineering Blog](https://engineering.deptagency.com/software-engineers-rush-to-write-bad-code))
+
 Software engineers are often forced to deliver value quickly for the customer. They move fast. What they create is a mixture of researching, brainstorming, learning, prototyping, and final drafting.
 
 It is an absolute mess.
