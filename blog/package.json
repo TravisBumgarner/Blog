@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "hugo server -FD",
         "build": "hugo -d html",
-        "deploy": "npm run build && gcloud config set project root-270023 && gcloud builds submit --tag gcr.io/root-270023/blog && gcloud run deploy blog --image gcr.io/root-270023/blog --platform managed --region us-east1"
+        "deploy": "yarn run build && gcloud config set project root-270023 && gcloud builds submit --tag gcr.io/root-270023/blog && gcloud run deploy blog --image gcr.io/root-270023/blog --platform managed --region us-east1"
     },
     "repository": {
         "type": "git",

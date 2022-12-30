@@ -10,8 +10,6 @@ This is my blog.
 
 Use CN01 Filter in Lightroom under Style: Cinematic
 
-# Single line vs multi line code blocks
+# To Deploy
 
-Single line code blocks are with one backtick before and after the code.
-
-Multi line code blocks are with three backticks then the work multiline. This is so styling can be done corectly. 
+cd to blog and run scripts in package.json

@@ -27,11 +27,6 @@
 	<meta property="og:author" content="{{ if .Authors }}{{ .Authors }}{{ else }}{{ .Site.Params.Author }}{{ end }}">
 	<meta property="og:site_name" content="{{ .Site.Title }}">
 
-	<!-- RSS -->
-	{{ if .RSSLink -}}
-	<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" caption="{{ .Site.Title }}">{{- end }}
-	{{ .Hugo.Generator }}
-
 	<!-- Styles -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
