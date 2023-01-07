@@ -1,10 +1,10 @@
 {
-    "title": "Combining Hobbies: Programming, Electronics & Photography Part I",
+    "title": "Combining Hobbies: Programming, Electronics & Photography",
     "date": "2016-04-04T09:00:00-00:00",
     "draft": false,
     "topics": ["writing"],
     "preview_image": "/image/combining-hobbies/preview_image.jpg",
-    "description": "I've always loved exploring the intersection of hobbies. This is how I learned to build and program a camera."
+    "description": "This is an exploration into learning more about photography by building a camera."
 }
 
 *Note*: This article was originally published in three parts to my Photography Portfolio Blog in 2016. 
