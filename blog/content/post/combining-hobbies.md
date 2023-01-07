@@ -2,13 +2,7 @@
     "title": "Combining Hobbies: Programming, Electronics & Photography Part I",
     "date": "2016-04-04T09:00:00-00:00",
     "draft": false,
-    "tools": ["Arduino", "C++"],
-    "topics": [
-        "Electronics",
-        "Photography",
-        "Programming"
-    ],
-    "project": "combining-hobbies",
+    "topics": ["writing"],
     "preview_image": "/image/combining-hobbies/preview_image.jpg",
     "description": "I've always loved exploring the intersection of hobbies. This is how I learned to build and program a camera."
 }

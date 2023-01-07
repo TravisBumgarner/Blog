@@ -2,21 +2,11 @@
     "title": "Time Management & Productivity",
     "date": "2019-03-04T11:48:40-05:00",
     "draft": false,
-    "tools": [],
-    "topics": [
-        "My Process"
-    ],
-    "project": "time-management",
+    "topics": ["writing"],
     "description": "I have gotten very good at managing my time over the years, here is how I do it.",
     "preview_image": "/image/time-management-and-productivity/preview_image.jpg"
 }
 
-<!-- Templates
-
-{{< youtube id >}} 
-{{< figure src="/image/time-management-and-productivity/file.jpg" caption="Title" >}}
-
--->
 
 *Note*: This article was originally published to the Painless Prototyping Blog (now deactivated) on October 27th, 2016. 
 

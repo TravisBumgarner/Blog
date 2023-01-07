@@ -2,20 +2,11 @@
 "title": "Sharing What You've Learned with Others",
 "date": "2019-01-23T16:12:11-05:00",
 "draft": false,
-"tools": [],
-"topics": [
- "My Process",
- "Presentations"
-],
+"topics": ["writing"],
 "project": "teach-anyone-anything",
 "description": "I have learned a lot along the way and I'll share those lessons learned here.",
 "preview_image": "/image/teach-anyone-anything/cinnova.jpg"
 }
-
-<!-- Where to Post
-
-
--->
 
 As an undergrad, I studied mechanical engineering. After graduating. I returned to visit a friend who was still there. He was getting his masters in a specific area of mechanical engineering. I stopped by his lab to check out what he was doing. After I got an explanation, I left the lab, still not sure what he did. From kindergarten up through graduating college together, we took the same classes. Yet, with all the shared knowledge and vocabulary, he was unable to explain what he did.
 

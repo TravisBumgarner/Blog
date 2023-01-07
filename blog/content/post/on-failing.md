@@ -2,12 +2,7 @@
     "title": "What it Means to Fail",
     "date": "2019-03-19T11:32:39-05:00",
     "draft": false,
-    "tools": [],
-    "topics": [
-        "Entrepreneurship",
-        "My Process"
-    ],
-    "project": "failure",
+    "topics": ["writing"],
     "description": "I marked my service in the Peace Corps as a failure. After much reflection on that summarization, I realized there is more than one way to look at failure.",
     "preview_image": "/image/on-failing/preview_image.jpg"
 }

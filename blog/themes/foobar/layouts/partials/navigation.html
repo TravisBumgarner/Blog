@@ -1,24 +1,12 @@
 <nav>
     <ul>
-        <li>Writing
-            <ul>
-                <li><a href="/">All Artifacts</a></li>
-                {{ range $key, $value := .Site.Taxonomies.topics }}
-                <li><a href="/topics/{{ $key }}/">{{ humanize $key}}</a></li>
-                {{ end }}
-            </ul>
-        </li>
-        <li class="desktop-nav-item"><a target="_blank" href="https://travisbumgarner.photography">Photography</a>
-        </li>
-        <li class="desktop-nav-item"><a target="_blank" href="https://travisbumgarner.dev">Engineering</a></li>
-        <li class="desktop-nav-item"><a target="_blank" href="https://www.linkedin.com/in/travisbumgarner">LinkedIn</a>
-        </li>
-        <li id="mobile-nav">Other Artifacts
-            <ul>
-                <li><a target="_blank" href="https://travisbumgarner.photography">Photography</a></li>
-                <li><a target="_blank" href="https://travisbumgarner.dev">Engineering</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/travisbumgarner">LinkedIn</a></li>
-            </ul>
-        </li>
+        <li><a href="/topics/presentation">Presentations</a></li>
+        <li><a href="/topics/writing">Writing</a></li>
+    </ul>
+    <ul>
+        <li><a target="_blank" href="https://www.linkedin.com/in/travisbumgarner">Connect</a></li>
+        <li><a target="_blank" href="https://github.com/travisBumgarner/">GitHub</a></li>
+        <li><a target="_blank" href="https://travisbumgarner.photography">Photography</a></li>
+        <li><a target="_blank" href="https://travisbumgarner.dev">Engineering</a></li>
     </ul>
 </nav>

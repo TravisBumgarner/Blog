@@ -2,33 +2,12 @@
  "title": "Software Engineers Rush to Write Bad Code",
  "date": "2022-04-18T13:52:11+02:00",
  "draft": false,
- "tools": [],
- "topics": [
- "My Process"
- ],
- "project": "",
+ "topics": ["writing"],
  "description": "Engineers are pushed to write code quickly and the quality suffers because of it. How can you move quickly while maintaining a high level of quality?",
  "preview_image": "/image/code-to-production/preview_image.jpg"
 }
 
-<!-- What are your three yeses? (Readers should nod their head yes to the headline, subheading, and first sentence.)
-
-
--->
-
-<!-- Where to Post
- - /r/learnprogramming
- - /r/??
- - My blog
- - DEPT's blog
-
- -->
-
- <!-- Keywords
- 
- -->
-
- ([Originally posted on the DEPT® Engineering Blog](https://engineering.deptagency.com/software-engineers-rush-to-write-bad-code))
+([Originally posted on the DEPT® Engineering Blog](https://engineering.deptagency.com/software-engineers-rush-to-write-bad-code))
 
 Software engineers are often forced to deliver value quickly for the customer. They move fast. What they create is a mixture of researching, brainstorming, learning, prototyping, and final drafting.
 

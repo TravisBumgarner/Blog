@@ -2,11 +2,7 @@
     "title": "Finish What You Start",
     "date": "2018-11-23T17:39:21-07:00",
     "draft": false,
-    "tools": [],
-    "topics": [
-        "My Process"
-    ],
-    "project": "",
+    "topics": ["writing"],
     "description": "I love starting hobby projects. However, I seem to hate finishing them. Let's figure out how to finish things.",
         "preview_image": "/image/finish-what-you-start/preview_image.jpg"
 }

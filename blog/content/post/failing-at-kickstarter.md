@@ -2,11 +2,7 @@
     "title": "What I learned from Failing with Kickstarter",
     "date": "2019-03-25T11:19:53-05:00",
     "draft": false,
-    "tools": [],
-    "topics": [
-        "Entrepreneurship"
-    ],
-    "project": "Painless Prototyping",
+    "topics": ["writing"],
     "description": "In 2016, I set out to launch my first product on Kickstarter. I failed, did some research, tried again and succeeded. These are my observations.",
     "preview_image": "/image/failing-at-kickstarter/preview_image.jpg"
 }

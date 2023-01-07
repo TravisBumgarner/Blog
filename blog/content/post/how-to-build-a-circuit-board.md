@@ -2,11 +2,7 @@
     "title": "How to Build a Circuit Board",
     "date": "2019-04-12T12:05:19-05:00",
     "draft": false,
-    "tools": [],
-    "topics": [
-        "Projects"
-    ],
-    "project": "Painless Prototyping",
+    "topics": ["writing"],
     "description": "One Day I decided to learn how to make circuit boards. Several months later, my first PCB arried in the mail. This is how I got there.",
     "preview_image": "/image/how-to-build-a-circuit-board/preview_image.jpg"
 }
